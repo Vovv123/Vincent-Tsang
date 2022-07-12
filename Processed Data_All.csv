@@ -1,0 +1,921 @@
+data_Sourse,age,sex,Chest pain type,trestbps: blood pressure,cholestoral,FBS,Rest ECG,maximum heart rate,Exercise  angina ,ST depression,slope of ST segment,ca: number of major vessels (0-3) colored,thal,Heart disease (B),Heart disease (C)
+data_cleveland,63,M,typical,145,233,TRUE,left ventricular hypertrophy ,150,No,2.3,downsloping,0,fixed defect,FALSE,0
+data_cleveland,67,M,asymptomatic,160,286,FALSE,left ventricular hypertrophy ,108,Yes,1.5,flat,3,normal,TRUE,1
+data_cleveland,67,M,asymptomatic,120,229,FALSE,left ventricular hypertrophy ,129,Yes,2.6,flat,2,reversable defect,TRUE,1
+data_cleveland,37,M,non-anginal pain,130,250,FALSE,normal,187,No,3.5,downsloping,0,normal,FALSE,0
+data_cleveland,41,F,atypical,130,204,FALSE,left ventricular hypertrophy ,172,No,1.4,upsloping,0,normal,FALSE,0
+data_cleveland,56,M,atypical,120,236,FALSE,normal,178,No,0.8,upsloping,0,normal,FALSE,0
+data_cleveland,62,F,asymptomatic,140,268,FALSE,left ventricular hypertrophy ,160,No,3.6,downsloping,2,normal,TRUE,1
+data_cleveland,57,F,asymptomatic,120,354,FALSE,normal,163,Yes,0.6,upsloping,0,normal,FALSE,0
+data_cleveland,63,M,asymptomatic,130,254,FALSE,left ventricular hypertrophy ,147,No,1.4,flat,1,reversable defect,TRUE,1
+data_cleveland,53,M,asymptomatic,140,203,TRUE,left ventricular hypertrophy ,155,Yes,3.1,downsloping,0,reversable defect,TRUE,1
+data_cleveland,57,M,asymptomatic,140,192,FALSE,normal,148,No,0.4,flat,0,fixed defect,FALSE,0
+data_cleveland,56,F,atypical,140,294,FALSE,left ventricular hypertrophy ,153,No,1.3,flat,0,normal,FALSE,0
+data_cleveland,56,M,non-anginal pain,130,256,TRUE,left ventricular hypertrophy ,142,Yes,0.6,flat,1,fixed defect,TRUE,1
+data_cleveland,44,M,atypical,120,263,FALSE,normal,173,No,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,52,M,non-anginal pain,172,199,TRUE,normal,162,No,0.5,upsloping,0,reversable defect,FALSE,0
+data_cleveland,57,M,non-anginal pain,150,168,FALSE,normal,174,No,1.6,upsloping,0,normal,FALSE,0
+data_cleveland,48,M,atypical,110,229,FALSE,normal,168,No,1,downsloping,0,reversable defect,TRUE,1
+data_cleveland,54,M,asymptomatic,140,239,FALSE,normal,160,No,1.2,upsloping,0,normal,FALSE,0
+data_cleveland,48,F,non-anginal pain,130,275,FALSE,normal,139,No,0.2,upsloping,0,normal,FALSE,0
+data_cleveland,49,M,atypical,130,266,FALSE,normal,171,No,0.6,upsloping,0,normal,FALSE,0
+data_cleveland,64,M,typical,110,211,FALSE,left ventricular hypertrophy ,144,Yes,1.8,flat,0,normal,FALSE,0
+data_cleveland,58,F,typical,150,283,TRUE,left ventricular hypertrophy ,162,No,1,upsloping,0,normal,FALSE,0
+data_cleveland,58,M,atypical,120,284,FALSE,left ventricular hypertrophy ,160,No,1.8,flat,0,normal,TRUE,1
+data_cleveland,58,M,non-anginal pain,132,224,FALSE,left ventricular hypertrophy ,173,No,3.2,upsloping,2,reversable defect,TRUE,1
+data_cleveland,60,M,asymptomatic,130,206,FALSE,left ventricular hypertrophy ,132,Yes,2.4,flat,2,reversable defect,TRUE,1
+data_cleveland,50,F,non-anginal pain,120,219,FALSE,normal,158,No,1.6,flat,0,normal,FALSE,0
+data_cleveland,58,F,non-anginal pain,120,340,FALSE,normal,172,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,66,F,typical,150,226,FALSE,normal,114,No,2.6,downsloping,0,normal,FALSE,0
+data_cleveland,43,M,asymptomatic,150,247,FALSE,normal,171,No,1.5,upsloping,0,normal,FALSE,0
+data_cleveland,40,M,asymptomatic,110,167,FALSE,left ventricular hypertrophy ,114,Yes,2,flat,0,reversable defect,TRUE,1
+data_cleveland,69,F,typical,140,239,FALSE,normal,151,No,1.8,upsloping,2,normal,FALSE,0
+data_cleveland,60,M,asymptomatic,117,230,TRUE,normal,160,Yes,1.4,upsloping,2,reversable defect,TRUE,1
+data_cleveland,64,M,non-anginal pain,140,335,FALSE,normal,158,No,0,upsloping,0,normal,TRUE,1
+data_cleveland,59,M,asymptomatic,135,234,FALSE,normal,161,No,0.5,flat,0,reversable defect,FALSE,0
+data_cleveland,44,M,non-anginal pain,130,233,FALSE,normal,179,Yes,0.4,upsloping,0,normal,FALSE,0
+data_cleveland,42,M,asymptomatic,140,226,FALSE,normal,178,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,43,M,asymptomatic,120,177,FALSE,left ventricular hypertrophy ,120,Yes,2.5,flat,0,reversable defect,TRUE,1
+data_cleveland,57,M,asymptomatic,150,276,FALSE,left ventricular hypertrophy ,112,Yes,0.6,flat,1,fixed defect,TRUE,1
+data_cleveland,55,M,asymptomatic,132,353,FALSE,normal,132,Yes,1.2,flat,1,reversable defect,TRUE,1
+data_cleveland,61,M,non-anginal pain,150,243,TRUE,normal,137,Yes,1,flat,0,normal,FALSE,0
+data_cleveland,65,F,asymptomatic,150,225,FALSE,left ventricular hypertrophy ,114,No,1,flat,3,reversable defect,TRUE,1
+data_cleveland,40,M,typical,140,199,FALSE,normal,178,Yes,1.4,upsloping,0,reversable defect,FALSE,0
+data_cleveland,71,F,atypical,160,302,FALSE,normal,162,No,0.4,upsloping,2,normal,FALSE,0
+data_cleveland,59,M,non-anginal pain,150,212,TRUE,normal,157,No,1.6,upsloping,0,normal,FALSE,0
+data_cleveland,61,F,asymptomatic,130,330,FALSE,left ventricular hypertrophy ,169,No,0,upsloping,0,normal,TRUE,1
+data_cleveland,58,M,non-anginal pain,112,230,FALSE,left ventricular hypertrophy ,165,No,2.5,flat,1,reversable defect,TRUE,1
+data_cleveland,51,M,non-anginal pain,110,175,FALSE,normal,123,No,0.6,upsloping,0,normal,FALSE,0
+data_cleveland,50,M,asymptomatic,150,243,FALSE,left ventricular hypertrophy ,128,No,2.6,flat,0,reversable defect,TRUE,1
+data_cleveland,65,F,non-anginal pain,140,417,TRUE,left ventricular hypertrophy ,157,No,0.8,upsloping,1,normal,FALSE,0
+data_cleveland,53,M,non-anginal pain,130,197,TRUE,left ventricular hypertrophy ,152,No,1.2,downsloping,0,normal,FALSE,0
+data_cleveland,41,F,atypical,105,198,FALSE,normal,168,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,65,M,asymptomatic,120,177,FALSE,normal,140,No,0.4,upsloping,0,reversable defect,FALSE,0
+data_cleveland,44,M,asymptomatic,112,290,FALSE,left ventricular hypertrophy ,153,No,0,upsloping,1,normal,TRUE,1
+data_cleveland,44,M,atypical,130,219,FALSE,left ventricular hypertrophy ,188,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,60,M,asymptomatic,130,253,FALSE,normal,144,Yes,1.4,upsloping,1,reversable defect,TRUE,1
+data_cleveland,54,M,asymptomatic,124,266,FALSE,left ventricular hypertrophy ,109,Yes,2.2,flat,1,reversable defect,TRUE,1
+data_cleveland,50,M,non-anginal pain,140,233,FALSE,normal,163,No,0.6,flat,1,reversable defect,TRUE,1
+data_cleveland,41,M,asymptomatic,110,172,FALSE,left ventricular hypertrophy ,158,No,0,upsloping,0,reversable defect,TRUE,1
+data_cleveland,54,M,non-anginal pain,125,273,FALSE,left ventricular hypertrophy ,152,No,0.5,downsloping,1,normal,FALSE,0
+data_cleveland,51,M,typical,125,213,FALSE,left ventricular hypertrophy ,125,Yes,1.4,upsloping,1,normal,FALSE,0
+data_cleveland,51,F,asymptomatic,130,305,FALSE,normal,142,Yes,1.2,flat,0,reversable defect,TRUE,1
+data_cleveland,46,F,non-anginal pain,142,177,FALSE,left ventricular hypertrophy ,160,Yes,1.4,downsloping,0,normal,FALSE,0
+data_cleveland,58,M,asymptomatic,128,216,FALSE,left ventricular hypertrophy ,131,Yes,2.2,flat,3,reversable defect,TRUE,1
+data_cleveland,54,F,non-anginal pain,135,304,TRUE,normal,170,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,54,M,asymptomatic,120,188,FALSE,normal,113,No,1.4,flat,1,reversable defect,TRUE,1
+data_cleveland,60,M,asymptomatic,145,282,FALSE,left ventricular hypertrophy ,142,Yes,2.8,flat,2,reversable defect,TRUE,1
+data_cleveland,60,M,non-anginal pain,140,185,FALSE,left ventricular hypertrophy ,155,No,3,flat,0,normal,TRUE,1
+data_cleveland,54,M,non-anginal pain,150,232,FALSE,left ventricular hypertrophy ,165,No,1.6,upsloping,0,reversable defect,FALSE,0
+data_cleveland,59,M,asymptomatic,170,326,FALSE,left ventricular hypertrophy ,140,Yes,3.4,downsloping,0,reversable defect,TRUE,1
+data_cleveland,46,M,non-anginal pain,150,231,FALSE,normal,147,No,3.6,flat,0,normal,TRUE,1
+data_cleveland,65,F,non-anginal pain,155,269,FALSE,normal,148,No,0.8,upsloping,0,normal,FALSE,0
+data_cleveland,67,M,asymptomatic,125,254,TRUE,normal,163,No,0.2,flat,2,reversable defect,TRUE,1
+data_cleveland,62,M,asymptomatic,120,267,FALSE,normal,99,Yes,1.8,flat,2,reversable defect,TRUE,1
+data_cleveland,65,M,asymptomatic,110,248,FALSE,left ventricular hypertrophy ,158,No,0.6,upsloping,2,fixed defect,TRUE,1
+data_cleveland,44,M,asymptomatic,110,197,FALSE,left ventricular hypertrophy ,177,No,0,upsloping,1,normal,TRUE,1
+data_cleveland,65,F,non-anginal pain,160,360,FALSE,left ventricular hypertrophy ,151,No,0.8,upsloping,0,normal,FALSE,0
+data_cleveland,60,M,asymptomatic,125,258,FALSE,left ventricular hypertrophy ,141,Yes,2.8,flat,1,reversable defect,TRUE,1
+data_cleveland,51,F,non-anginal pain,140,308,FALSE,left ventricular hypertrophy ,142,No,1.5,upsloping,1,normal,FALSE,0
+data_cleveland,48,M,atypical,130,245,FALSE,left ventricular hypertrophy ,180,No,0.2,flat,0,normal,FALSE,0
+data_cleveland,58,M,asymptomatic,150,270,FALSE,left ventricular hypertrophy ,111,Yes,0.8,upsloping,0,reversable defect,TRUE,1
+data_cleveland,45,M,asymptomatic,104,208,FALSE,left ventricular hypertrophy ,148,Yes,3,flat,0,normal,FALSE,0
+data_cleveland,53,F,asymptomatic,130,264,FALSE,left ventricular hypertrophy ,143,No,0.4,flat,0,normal,FALSE,0
+data_cleveland,39,M,non-anginal pain,140,321,FALSE,left ventricular hypertrophy ,182,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,68,M,non-anginal pain,180,274,TRUE,left ventricular hypertrophy ,150,Yes,1.6,flat,0,reversable defect,TRUE,1
+data_cleveland,52,M,atypical,120,325,FALSE,normal,172,No,0.2,upsloping,0,normal,FALSE,0
+data_cleveland,44,M,non-anginal pain,140,235,FALSE,left ventricular hypertrophy ,180,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,47,M,non-anginal pain,138,257,FALSE,left ventricular hypertrophy ,156,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,53,F,non-anginal pain,128,216,FALSE,left ventricular hypertrophy ,115,No,0,upsloping,0,?,FALSE,0
+data_cleveland,53,F,asymptomatic,138,234,FALSE,left ventricular hypertrophy ,160,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,51,F,non-anginal pain,130,256,FALSE,left ventricular hypertrophy ,149,No,0.5,upsloping,0,normal,FALSE,0
+data_cleveland,66,M,asymptomatic,120,302,FALSE,left ventricular hypertrophy ,151,No,0.4,flat,0,normal,FALSE,0
+data_cleveland,62,F,asymptomatic,160,164,FALSE,left ventricular hypertrophy ,145,No,6.2,downsloping,3,reversable defect,TRUE,1
+data_cleveland,62,M,non-anginal pain,130,231,FALSE,normal,146,No,1.8,flat,3,reversable defect,FALSE,0
+data_cleveland,44,F,non-anginal pain,108,141,FALSE,normal,175,No,0.6,flat,0,normal,FALSE,0
+data_cleveland,63,F,non-anginal pain,135,252,FALSE,left ventricular hypertrophy ,172,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,52,M,asymptomatic,128,255,FALSE,normal,161,Yes,0,upsloping,1,reversable defect,TRUE,1
+data_cleveland,59,M,asymptomatic,110,239,FALSE,left ventricular hypertrophy ,142,Yes,1.2,flat,1,reversable defect,TRUE,1
+data_cleveland,60,F,asymptomatic,150,258,FALSE,left ventricular hypertrophy ,157,No,2.6,flat,2,reversable defect,TRUE,1
+data_cleveland,52,M,atypical,134,201,FALSE,normal,158,No,0.8,upsloping,1,normal,FALSE,0
+data_cleveland,48,M,asymptomatic,122,222,FALSE,left ventricular hypertrophy ,186,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,45,M,asymptomatic,115,260,FALSE,left ventricular hypertrophy ,185,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,34,M,typical,118,182,FALSE,left ventricular hypertrophy ,174,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,57,F,asymptomatic,128,303,FALSE,left ventricular hypertrophy ,159,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,71,F,non-anginal pain,110,265,TRUE,left ventricular hypertrophy ,130,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,49,M,non-anginal pain,120,188,FALSE,normal,139,No,2,flat,3,reversable defect,TRUE,1
+data_cleveland,54,M,atypical,108,309,FALSE,normal,156,No,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,59,M,asymptomatic,140,177,FALSE,normal,162,Yes,0,upsloping,1,reversable defect,TRUE,1
+data_cleveland,57,M,non-anginal pain,128,229,FALSE,left ventricular hypertrophy ,150,No,0.4,flat,1,reversable defect,TRUE,1
+data_cleveland,61,M,asymptomatic,120,260,FALSE,normal,140,Yes,3.6,flat,1,reversable defect,TRUE,1
+data_cleveland,39,M,asymptomatic,118,219,FALSE,normal,140,No,1.2,flat,0,reversable defect,TRUE,1
+data_cleveland,61,F,asymptomatic,145,307,FALSE,left ventricular hypertrophy ,146,Yes,1,flat,0,reversable defect,TRUE,1
+data_cleveland,56,M,asymptomatic,125,249,TRUE,left ventricular hypertrophy ,144,Yes,1.2,flat,1,normal,TRUE,1
+data_cleveland,52,M,typical,118,186,FALSE,left ventricular hypertrophy ,190,No,0,flat,0,fixed defect,FALSE,0
+data_cleveland,43,F,asymptomatic,132,341,TRUE,left ventricular hypertrophy ,136,Yes,3,flat,0,reversable defect,TRUE,1
+data_cleveland,62,F,non-anginal pain,130,263,FALSE,normal,97,No,1.2,flat,1,reversable defect,TRUE,1
+data_cleveland,41,M,atypical,135,203,FALSE,normal,132,No,0,flat,0,fixed defect,FALSE,0
+data_cleveland,58,M,non-anginal pain,140,211,TRUE,left ventricular hypertrophy ,165,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,35,F,asymptomatic,138,183,FALSE,normal,182,No,1.4,upsloping,0,normal,FALSE,0
+data_cleveland,63,M,asymptomatic,130,330,TRUE,left ventricular hypertrophy ,132,Yes,1.8,upsloping,3,reversable defect,TRUE,1
+data_cleveland,65,M,asymptomatic,135,254,FALSE,left ventricular hypertrophy ,127,No,2.8,flat,1,reversable defect,TRUE,1
+data_cleveland,48,M,asymptomatic,130,256,TRUE,left ventricular hypertrophy ,150,Yes,0,upsloping,2,reversable defect,TRUE,1
+data_cleveland,63,F,asymptomatic,150,407,FALSE,left ventricular hypertrophy ,154,No,4,flat,3,reversable defect,TRUE,1
+data_cleveland,51,M,non-anginal pain,100,222,FALSE,normal,143,Yes,1.2,flat,0,normal,FALSE,0
+data_cleveland,55,M,asymptomatic,140,217,FALSE,normal,111,Yes,5.6,downsloping,0,reversable defect,TRUE,1
+data_cleveland,65,M,typical,138,282,TRUE,left ventricular hypertrophy ,174,No,1.4,flat,1,normal,TRUE,1
+data_cleveland,45,F,atypical,130,234,FALSE,left ventricular hypertrophy ,175,No,0.6,flat,0,normal,FALSE,0
+data_cleveland,56,F,asymptomatic,200,288,TRUE,left ventricular hypertrophy ,133,Yes,4,downsloping,2,reversable defect,TRUE,1
+data_cleveland,54,M,asymptomatic,110,239,FALSE,normal,126,Yes,2.8,flat,1,reversable defect,TRUE,1
+data_cleveland,44,M,atypical,120,220,FALSE,normal,170,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,62,F,asymptomatic,124,209,FALSE,normal,163,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,54,M,non-anginal pain,120,258,FALSE,left ventricular hypertrophy ,147,No,0.4,flat,0,reversable defect,FALSE,0
+data_cleveland,51,M,non-anginal pain,94,227,FALSE,normal,154,Yes,0,upsloping,1,reversable defect,FALSE,0
+data_cleveland,29,M,atypical,130,204,FALSE,left ventricular hypertrophy ,202,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,51,M,asymptomatic,140,261,FALSE,left ventricular hypertrophy ,186,Yes,0,upsloping,0,normal,FALSE,0
+data_cleveland,43,F,non-anginal pain,122,213,FALSE,normal,165,No,0.2,flat,0,normal,FALSE,0
+data_cleveland,55,F,atypical,135,250,FALSE,left ventricular hypertrophy ,161,No,1.4,flat,0,normal,FALSE,0
+data_cleveland,70,M,asymptomatic,145,174,FALSE,normal,125,Yes,2.6,downsloping,0,reversable defect,TRUE,1
+data_cleveland,62,M,atypical,120,281,FALSE,left ventricular hypertrophy ,103,No,1.4,flat,1,reversable defect,TRUE,1
+data_cleveland,35,M,asymptomatic,120,198,FALSE,normal,130,Yes,1.6,flat,0,reversable defect,TRUE,1
+data_cleveland,51,M,non-anginal pain,125,245,TRUE,left ventricular hypertrophy ,166,No,2.4,flat,0,normal,FALSE,0
+data_cleveland,59,M,atypical,140,221,FALSE,normal,164,Yes,0,upsloping,0,normal,FALSE,0
+data_cleveland,59,M,typical,170,288,FALSE,left ventricular hypertrophy ,159,No,0.2,flat,0,reversable defect,TRUE,1
+data_cleveland,52,M,atypical,128,205,TRUE,normal,184,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,64,M,non-anginal pain,125,309,FALSE,normal,131,Yes,1.8,flat,0,reversable defect,TRUE,1
+data_cleveland,58,M,non-anginal pain,105,240,FALSE,left ventricular hypertrophy ,154,Yes,0.6,flat,0,reversable defect,FALSE,0
+data_cleveland,47,M,non-anginal pain,108,243,FALSE,normal,152,No,0,upsloping,0,normal,TRUE,1
+data_cleveland,57,M,asymptomatic,165,289,TRUE,left ventricular hypertrophy ,124,No,1,flat,3,reversable defect,TRUE,1
+data_cleveland,41,M,non-anginal pain,112,250,FALSE,normal,179,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,45,M,atypical,128,308,FALSE,left ventricular hypertrophy ,170,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,60,F,non-anginal pain,102,318,FALSE,normal,160,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,52,M,typical,152,298,TRUE,normal,178,No,1.2,flat,0,reversable defect,FALSE,0
+data_cleveland,42,F,asymptomatic,102,265,FALSE,left ventricular hypertrophy ,122,No,0.6,flat,0,normal,FALSE,0
+data_cleveland,67,F,non-anginal pain,115,564,FALSE,left ventricular hypertrophy ,160,No,1.6,flat,0,reversable defect,FALSE,0
+data_cleveland,55,M,asymptomatic,160,289,FALSE,left ventricular hypertrophy ,145,Yes,0.8,flat,1,reversable defect,TRUE,1
+data_cleveland,64,M,asymptomatic,120,246,FALSE,left ventricular hypertrophy ,96,Yes,2.2,downsloping,1,normal,TRUE,1
+data_cleveland,70,M,asymptomatic,130,322,FALSE,left ventricular hypertrophy ,109,No,2.4,flat,3,normal,TRUE,1
+data_cleveland,51,M,asymptomatic,140,299,FALSE,normal,173,Yes,1.6,upsloping,0,reversable defect,TRUE,1
+data_cleveland,58,M,asymptomatic,125,300,FALSE,left ventricular hypertrophy ,171,No,0,upsloping,2,reversable defect,TRUE,1
+data_cleveland,60,M,asymptomatic,140,293,FALSE,left ventricular hypertrophy ,170,No,1.2,flat,2,reversable defect,TRUE,1
+data_cleveland,68,M,non-anginal pain,118,277,FALSE,normal,151,No,1,upsloping,1,reversable defect,FALSE,0
+data_cleveland,46,M,atypical,101,197,TRUE,normal,156,No,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,77,M,asymptomatic,125,304,FALSE,left ventricular hypertrophy ,162,Yes,0,upsloping,3,normal,TRUE,1
+data_cleveland,54,F,non-anginal pain,110,214,FALSE,normal,158,No,1.6,flat,0,normal,FALSE,0
+data_cleveland,58,F,asymptomatic,100,248,FALSE,left ventricular hypertrophy ,122,No,1,flat,0,normal,FALSE,0
+data_cleveland,48,M,non-anginal pain,124,255,TRUE,normal,175,No,0,upsloping,2,normal,FALSE,0
+data_cleveland,57,M,asymptomatic,132,207,FALSE,normal,168,Yes,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,52,M,non-anginal pain,138,223,FALSE,normal,169,No,0,upsloping,?,normal,FALSE,0
+data_cleveland,54,F,atypical,132,288,TRUE,left ventricular hypertrophy ,159,Yes,0,upsloping,1,normal,FALSE,0
+data_cleveland,35,M,asymptomatic,126,282,FALSE,left ventricular hypertrophy ,156,Yes,0,upsloping,0,reversable defect,TRUE,1
+data_cleveland,45,F,atypical,112,160,FALSE,normal,138,No,0,flat,0,normal,FALSE,0
+data_cleveland,70,M,non-anginal pain,160,269,FALSE,normal,112,Yes,2.9,flat,1,reversable defect,TRUE,1
+data_cleveland,53,M,asymptomatic,142,226,FALSE,left ventricular hypertrophy ,111,Yes,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,59,F,asymptomatic,174,249,FALSE,normal,143,Yes,0,flat,0,normal,TRUE,1
+data_cleveland,62,F,asymptomatic,140,394,FALSE,left ventricular hypertrophy ,157,No,1.2,flat,0,normal,FALSE,0
+data_cleveland,64,M,asymptomatic,145,212,FALSE,left ventricular hypertrophy ,132,No,2,flat,2,fixed defect,TRUE,1
+data_cleveland,57,M,asymptomatic,152,274,FALSE,normal,88,Yes,1.2,flat,1,reversable defect,TRUE,1
+data_cleveland,52,M,asymptomatic,108,233,TRUE,normal,147,No,0.1,upsloping,3,reversable defect,FALSE,0
+data_cleveland,56,M,asymptomatic,132,184,FALSE,left ventricular hypertrophy ,105,Yes,2.1,flat,1,fixed defect,TRUE,1
+data_cleveland,43,M,non-anginal pain,130,315,FALSE,normal,162,No,1.9,upsloping,1,normal,FALSE,0
+data_cleveland,53,M,non-anginal pain,130,246,TRUE,left ventricular hypertrophy ,173,No,0,upsloping,3,normal,FALSE,0
+data_cleveland,48,M,asymptomatic,124,274,FALSE,left ventricular hypertrophy ,166,No,0.5,flat,0,reversable defect,TRUE,1
+data_cleveland,56,F,asymptomatic,134,409,FALSE,left ventricular hypertrophy ,150,Yes,1.9,flat,2,reversable defect,TRUE,1
+data_cleveland,42,M,typical,148,244,FALSE,left ventricular hypertrophy ,178,No,0.8,upsloping,2,normal,FALSE,0
+data_cleveland,59,M,typical,178,270,FALSE,left ventricular hypertrophy ,145,No,4.2,downsloping,0,reversable defect,FALSE,0
+data_cleveland,60,F,asymptomatic,158,305,FALSE,left ventricular hypertrophy ,161,No,0,upsloping,0,normal,TRUE,1
+data_cleveland,63,F,atypical,140,195,FALSE,normal,179,No,0,upsloping,2,normal,FALSE,0
+data_cleveland,42,M,non-anginal pain,120,240,TRUE,normal,194,No,0.8,downsloping,0,reversable defect,FALSE,0
+data_cleveland,66,M,atypical,160,246,FALSE,normal,120,Yes,0,flat,3,fixed defect,TRUE,1
+data_cleveland,54,M,atypical,192,283,FALSE,left ventricular hypertrophy ,195,No,0,upsloping,1,reversable defect,TRUE,1
+data_cleveland,69,M,non-anginal pain,140,254,FALSE,left ventricular hypertrophy ,146,No,2,flat,3,reversable defect,TRUE,1
+data_cleveland,50,M,non-anginal pain,129,196,FALSE,normal,163,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,51,M,asymptomatic,140,298,FALSE,normal,122,Yes,4.2,flat,3,reversable defect,TRUE,1
+data_cleveland,43,M,asymptomatic,132,247,TRUE,left ventricular hypertrophy ,143,Yes,0.1,flat,?,reversable defect,TRUE,1
+data_cleveland,62,F,asymptomatic,138,294,TRUE,normal,106,No,1.9,flat,3,normal,TRUE,1
+data_cleveland,68,F,non-anginal pain,120,211,FALSE,left ventricular hypertrophy ,115,No,1.5,flat,0,normal,FALSE,0
+data_cleveland,67,M,asymptomatic,100,299,FALSE,left ventricular hypertrophy ,125,Yes,0.9,flat,2,normal,TRUE,1
+data_cleveland,69,M,typical,160,234,TRUE,left ventricular hypertrophy ,131,No,0.1,flat,1,normal,FALSE,0
+data_cleveland,45,F,asymptomatic,138,236,FALSE,left ventricular hypertrophy ,152,Yes,0.2,flat,0,normal,FALSE,0
+data_cleveland,50,F,atypical,120,244,FALSE,normal,162,No,1.1,upsloping,0,normal,FALSE,0
+data_cleveland,59,M,typical,160,273,FALSE,left ventricular hypertrophy ,125,No,0,upsloping,0,normal,TRUE,1
+data_cleveland,50,F,asymptomatic,110,254,FALSE,left ventricular hypertrophy ,159,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,64,F,asymptomatic,180,325,FALSE,normal,154,Yes,0,upsloping,0,normal,FALSE,0
+data_cleveland,57,M,non-anginal pain,150,126,TRUE,normal,173,No,0.2,upsloping,1,reversable defect,FALSE,0
+data_cleveland,64,F,non-anginal pain,140,313,FALSE,normal,133,No,0.2,upsloping,0,reversable defect,FALSE,0
+data_cleveland,43,M,asymptomatic,110,211,FALSE,normal,161,No,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,45,M,asymptomatic,142,309,FALSE,left ventricular hypertrophy ,147,Yes,0,flat,3,reversable defect,TRUE,1
+data_cleveland,58,M,asymptomatic,128,259,FALSE,left ventricular hypertrophy ,130,Yes,3,flat,2,reversable defect,TRUE,1
+data_cleveland,50,M,asymptomatic,144,200,FALSE,left ventricular hypertrophy ,126,Yes,0.9,flat,0,reversable defect,TRUE,1
+data_cleveland,55,M,atypical,130,262,FALSE,normal,155,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,62,F,asymptomatic,150,244,FALSE,normal,154,Yes,1.4,flat,0,normal,TRUE,1
+data_cleveland,37,F,non-anginal pain,120,215,FALSE,normal,170,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,38,M,typical,120,231,FALSE,normal,182,Yes,3.8,flat,0,reversable defect,TRUE,1
+data_cleveland,41,M,non-anginal pain,130,214,FALSE,left ventricular hypertrophy ,168,No,2,flat,0,normal,FALSE,0
+data_cleveland,66,F,asymptomatic,178,228,TRUE,normal,165,Yes,1,flat,2,reversable defect,TRUE,1
+data_cleveland,52,M,asymptomatic,112,230,FALSE,normal,160,No,0,upsloping,1,normal,TRUE,1
+data_cleveland,56,M,typical,120,193,FALSE,left ventricular hypertrophy ,162,No,1.9,flat,0,reversable defect,FALSE,0
+data_cleveland,46,F,atypical,105,204,FALSE,normal,172,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,46,F,asymptomatic,138,243,FALSE,left ventricular hypertrophy ,152,Yes,0,flat,0,normal,FALSE,0
+data_cleveland,64,F,asymptomatic,130,303,FALSE,normal,122,No,2,flat,2,normal,FALSE,0
+data_cleveland,59,M,asymptomatic,138,271,FALSE,left ventricular hypertrophy ,182,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,41,F,non-anginal pain,112,268,FALSE,left ventricular hypertrophy ,172,Yes,0,upsloping,0,normal,FALSE,0
+data_cleveland,54,F,non-anginal pain,108,267,FALSE,left ventricular hypertrophy ,167,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,39,F,non-anginal pain,94,199,FALSE,normal,179,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,53,M,asymptomatic,123,282,FALSE,normal,95,Yes,2,flat,2,reversable defect,TRUE,1
+data_cleveland,63,F,asymptomatic,108,269,FALSE,normal,169,Yes,1.8,flat,2,normal,TRUE,1
+data_cleveland,34,F,atypical,118,210,FALSE,normal,192,No,0.7,upsloping,0,normal,FALSE,0
+data_cleveland,47,M,asymptomatic,112,204,FALSE,normal,143,No,0.1,upsloping,0,normal,FALSE,0
+data_cleveland,67,F,non-anginal pain,152,277,FALSE,normal,172,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,54,M,asymptomatic,110,206,FALSE,left ventricular hypertrophy ,108,Yes,0,flat,1,normal,TRUE,1
+data_cleveland,66,M,asymptomatic,112,212,FALSE,left ventricular hypertrophy ,132,Yes,0.1,upsloping,1,normal,TRUE,1
+data_cleveland,52,F,non-anginal pain,136,196,FALSE,left ventricular hypertrophy ,169,No,0.1,flat,0,normal,FALSE,0
+data_cleveland,55,F,asymptomatic,180,327,FALSE,abnormality,117,Yes,3.4,flat,0,normal,TRUE,1
+data_cleveland,49,M,non-anginal pain,118,149,FALSE,left ventricular hypertrophy ,126,No,0.8,upsloping,3,normal,TRUE,1
+data_cleveland,74,F,atypical,120,269,FALSE,left ventricular hypertrophy ,121,Yes,0.2,upsloping,1,normal,FALSE,0
+data_cleveland,54,F,non-anginal pain,160,201,FALSE,normal,163,No,0,upsloping,1,normal,FALSE,0
+data_cleveland,54,M,asymptomatic,122,286,FALSE,left ventricular hypertrophy ,116,Yes,3.2,flat,2,normal,TRUE,1
+data_cleveland,56,M,asymptomatic,130,283,TRUE,left ventricular hypertrophy ,103,Yes,1.6,downsloping,0,reversable defect,TRUE,1
+data_cleveland,46,M,asymptomatic,120,249,FALSE,left ventricular hypertrophy ,144,No,0.8,upsloping,0,reversable defect,TRUE,1
+data_cleveland,49,F,atypical,134,271,FALSE,normal,162,No,0,flat,0,normal,FALSE,0
+data_cleveland,42,M,atypical,120,295,FALSE,normal,162,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,41,M,atypical,110,235,FALSE,normal,153,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,41,F,atypical,126,306,FALSE,normal,163,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,49,F,asymptomatic,130,269,FALSE,normal,163,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,61,M,typical,134,234,FALSE,normal,145,No,2.6,flat,2,normal,TRUE,1
+data_cleveland,60,F,non-anginal pain,120,178,TRUE,normal,96,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,67,M,asymptomatic,120,237,FALSE,normal,71,No,1,flat,0,normal,TRUE,1
+data_cleveland,58,M,asymptomatic,100,234,FALSE,normal,156,No,0.1,upsloping,1,reversable defect,TRUE,1
+data_cleveland,47,M,asymptomatic,110,275,FALSE,left ventricular hypertrophy ,118,Yes,1,flat,1,normal,TRUE,1
+data_cleveland,52,M,asymptomatic,125,212,FALSE,normal,168,No,1,upsloping,2,reversable defect,TRUE,1
+data_cleveland,62,M,atypical,128,208,TRUE,left ventricular hypertrophy ,140,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,57,M,asymptomatic,110,201,FALSE,normal,126,Yes,1.5,flat,0,fixed defect,FALSE,0
+data_cleveland,58,M,asymptomatic,146,218,FALSE,normal,105,No,2,flat,1,reversable defect,TRUE,1
+data_cleveland,64,M,asymptomatic,128,263,FALSE,normal,105,Yes,0.2,flat,1,reversable defect,FALSE,0
+data_cleveland,51,F,non-anginal pain,120,295,FALSE,left ventricular hypertrophy ,157,No,0.6,upsloping,0,normal,FALSE,0
+data_cleveland,43,M,asymptomatic,115,303,FALSE,normal,181,No,1.2,flat,0,normal,FALSE,0
+data_cleveland,42,F,non-anginal pain,120,209,FALSE,normal,173,No,0,flat,0,normal,FALSE,0
+data_cleveland,67,F,asymptomatic,106,223,FALSE,normal,142,No,0.3,upsloping,2,normal,FALSE,0
+data_cleveland,76,F,non-anginal pain,140,197,FALSE,abnormality,116,No,1.1,flat,0,normal,FALSE,0
+data_cleveland,70,M,atypical,156,245,FALSE,left ventricular hypertrophy ,143,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,57,M,atypical,124,261,FALSE,normal,141,No,0.3,upsloping,0,reversable defect,TRUE,1
+data_cleveland,44,F,non-anginal pain,118,242,FALSE,normal,149,No,0.3,flat,1,normal,FALSE,0
+data_cleveland,58,F,atypical,136,319,TRUE,left ventricular hypertrophy ,152,No,0,upsloping,2,normal,TRUE,1
+data_cleveland,60,F,typical,150,240,FALSE,normal,171,No,0.9,upsloping,0,normal,FALSE,0
+data_cleveland,44,M,non-anginal pain,120,226,FALSE,normal,169,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,61,M,asymptomatic,138,166,FALSE,left ventricular hypertrophy ,125,Yes,3.6,flat,1,normal,TRUE,1
+data_cleveland,42,M,asymptomatic,136,315,FALSE,normal,125,Yes,1.8,flat,0,fixed defect,TRUE,1
+data_cleveland,52,M,asymptomatic,128,204,TRUE,normal,156,Yes,1,flat,0,?,TRUE,1
+data_cleveland,59,M,non-anginal pain,126,218,TRUE,normal,134,No,2.2,flat,1,fixed defect,TRUE,1
+data_cleveland,40,M,asymptomatic,152,223,FALSE,normal,181,No,0,upsloping,0,reversable defect,TRUE,1
+data_cleveland,42,M,non-anginal pain,130,180,FALSE,normal,150,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,61,M,asymptomatic,140,207,FALSE,left ventricular hypertrophy ,138,Yes,1.9,upsloping,1,reversable defect,TRUE,1
+data_cleveland,66,M,asymptomatic,160,228,FALSE,left ventricular hypertrophy ,138,No,2.3,upsloping,0,fixed defect,FALSE,0
+data_cleveland,46,M,asymptomatic,140,311,FALSE,normal,120,Yes,1.8,flat,2,reversable defect,TRUE,1
+data_cleveland,71,F,asymptomatic,112,149,FALSE,normal,125,No,1.6,flat,0,normal,FALSE,0
+data_cleveland,59,M,typical,134,204,FALSE,normal,162,No,0.8,upsloping,2,normal,TRUE,1
+data_cleveland,64,M,typical,170,227,FALSE,left ventricular hypertrophy ,155,No,0.6,flat,0,reversable defect,FALSE,0
+data_cleveland,66,F,non-anginal pain,146,278,FALSE,left ventricular hypertrophy ,152,No,0,flat,1,normal,FALSE,0
+data_cleveland,39,F,non-anginal pain,138,220,FALSE,normal,152,No,0,flat,0,normal,FALSE,0
+data_cleveland,57,M,atypical,154,232,FALSE,left ventricular hypertrophy ,164,No,0,upsloping,1,normal,TRUE,1
+data_cleveland,58,F,asymptomatic,130,197,FALSE,normal,131,No,0.6,flat,0,normal,FALSE,0
+data_cleveland,57,M,asymptomatic,110,335,FALSE,normal,143,Yes,3,flat,1,reversable defect,TRUE,1
+data_cleveland,47,M,non-anginal pain,130,253,FALSE,normal,179,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,55,F,asymptomatic,128,205,FALSE,abnormality,130,Yes,2,flat,1,reversable defect,TRUE,1
+data_cleveland,35,M,atypical,122,192,FALSE,normal,174,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,61,M,asymptomatic,148,203,FALSE,normal,161,No,0,upsloping,1,reversable defect,TRUE,1
+data_cleveland,58,M,asymptomatic,114,318,FALSE,abnormality,140,No,4.4,downsloping,3,fixed defect,TRUE,1
+data_cleveland,58,F,asymptomatic,170,225,TRUE,left ventricular hypertrophy ,146,Yes,2.8,flat,2,fixed defect,TRUE,1
+data_cleveland,58,M,atypical,125,220,FALSE,normal,144,No,0.4,flat,?,reversable defect,FALSE,0
+data_cleveland,56,M,atypical,130,221,FALSE,left ventricular hypertrophy ,163,No,0,upsloping,0,reversable defect,FALSE,0
+data_cleveland,56,M,atypical,120,240,FALSE,normal,169,No,0,downsloping,0,normal,FALSE,0
+data_cleveland,67,M,non-anginal pain,152,212,FALSE,left ventricular hypertrophy ,150,No,0.8,flat,0,reversable defect,TRUE,1
+data_cleveland,55,F,atypical,132,342,FALSE,normal,166,No,1.2,upsloping,0,normal,FALSE,0
+data_cleveland,44,M,asymptomatic,120,169,FALSE,normal,144,Yes,2.8,downsloping,0,fixed defect,TRUE,1
+data_cleveland,63,M,asymptomatic,140,187,FALSE,left ventricular hypertrophy ,144,Yes,4,upsloping,2,reversable defect,TRUE,1
+data_cleveland,63,F,asymptomatic,124,197,FALSE,normal,136,Yes,0,flat,0,normal,TRUE,1
+data_cleveland,41,M,atypical,120,157,FALSE,normal,182,No,0,upsloping,0,normal,FALSE,0
+data_cleveland,59,M,asymptomatic,164,176,TRUE,left ventricular hypertrophy ,90,No,1,flat,2,fixed defect,TRUE,1
+data_cleveland,57,F,asymptomatic,140,241,FALSE,normal,123,Yes,0.2,flat,0,reversable defect,TRUE,1
+data_cleveland,45,M,typical,110,264,FALSE,normal,132,No,1.2,flat,0,reversable defect,TRUE,1
+data_cleveland,68,M,asymptomatic,144,193,TRUE,normal,141,No,3.4,flat,2,reversable defect,TRUE,1
+data_cleveland,57,M,asymptomatic,130,131,FALSE,normal,115,Yes,1.2,flat,1,reversable defect,TRUE,1
+data_cleveland,57,F,atypical,130,236,FALSE,left ventricular hypertrophy ,174,No,0,flat,1,normal,TRUE,1
+data_cleveland,38,M,non-anginal pain,138,175,FALSE,normal,173,No,0,upsloping,?,normal,FALSE,0
+data_hungarian,40,M,atypical,140,289,FALSE,normal,172,No,0,?,?,?,FALSE,0
+data_hungarian,49,F,non-anginal pain,160,180,FALSE,normal,156,No,1,flat,?,?,TRUE,1
+data_hungarian,37,M,atypical,130,283,FALSE,abnormality,98,No,0,?,?,?,FALSE,0
+data_hungarian,48,F,asymptomatic,138,214,FALSE,normal,108,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,54,M,non-anginal pain,150,?,FALSE,normal,122,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,non-anginal pain,120,339,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,45,F,atypical,130,237,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,atypical,110,208,FALSE,normal,142,No,0,?,?,?,FALSE,0
+data_hungarian,37,M,asymptomatic,140,207,FALSE,normal,130,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,48,F,atypical,120,284,FALSE,normal,120,No,0,?,?,?,FALSE,0
+data_hungarian,37,F,non-anginal pain,130,211,FALSE,normal,142,No,0,?,?,?,FALSE,0
+data_hungarian,58,M,atypical,136,164,FALSE,abnormality,99,Yes,2,flat,?,?,TRUE,1
+data_hungarian,39,M,atypical,120,204,FALSE,normal,145,No,0,?,?,?,FALSE,0
+data_hungarian,49,M,asymptomatic,140,234,FALSE,normal,140,Yes,1,flat,?,?,TRUE,1
+data_hungarian,42,F,non-anginal pain,115,211,FALSE,abnormality,137,No,0,?,?,?,FALSE,0
+data_hungarian,54,F,atypical,120,273,FALSE,normal,150,No,1.5,flat,?,?,FALSE,0
+data_hungarian,38,M,asymptomatic,110,196,FALSE,normal,166,No,0,?,?,?,TRUE,1
+data_hungarian,43,F,atypical,120,201,FALSE,normal,165,No,0,?,?,?,FALSE,0
+data_hungarian,60,M,asymptomatic,100,248,FALSE,normal,125,No,1,flat,?,?,TRUE,1
+data_hungarian,36,M,atypical,120,267,FALSE,normal,160,No,3,flat,?,?,TRUE,1
+data_hungarian,43,F,typical,100,223,FALSE,normal,142,No,0,?,?,?,FALSE,0
+data_hungarian,44,M,atypical,120,184,FALSE,normal,142,No,1,flat,?,?,FALSE,0
+data_hungarian,49,F,atypical,124,201,FALSE,normal,164,No,0,?,?,?,FALSE,0
+data_hungarian,44,M,atypical,150,288,FALSE,normal,150,Yes,3,flat,?,?,TRUE,1
+data_hungarian,40,M,non-anginal pain,130,215,FALSE,normal,138,No,0,?,?,?,FALSE,0
+data_hungarian,36,M,non-anginal pain,130,209,FALSE,normal,178,No,0,?,?,?,FALSE,0
+data_hungarian,53,M,asymptomatic,124,260,FALSE,abnormality,112,Yes,3,flat,?,?,FALSE,0
+data_hungarian,52,M,atypical,120,284,FALSE,normal,118,No,0,?,?,?,FALSE,0
+data_hungarian,53,F,atypical,113,468,?,normal,127,No,0,?,?,?,FALSE,0
+data_hungarian,51,M,atypical,125,188,FALSE,normal,145,No,0,?,?,?,FALSE,0
+data_hungarian,53,M,non-anginal pain,145,518,FALSE,normal,130,No,0,?,?,?,TRUE,1
+data_hungarian,56,M,non-anginal pain,130,?,FALSE,normal,114,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,asymptomatic,125,224,FALSE,normal,122,No,2,flat,?,?,TRUE,1
+data_hungarian,41,M,asymptomatic,130,172,FALSE,abnormality,130,No,2,flat,?,?,TRUE,1
+data_hungarian,43,F,atypical,150,186,FALSE,normal,154,No,0,?,?,?,FALSE,0
+data_hungarian,32,M,atypical,125,254,FALSE,normal,155,No,0,?,?,?,FALSE,0
+data_hungarian,65,M,asymptomatic,140,306,TRUE,normal,87,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,41,F,atypical,110,250,FALSE,abnormality,142,No,0,?,?,?,FALSE,0
+data_hungarian,48,F,atypical,120,?,TRUE,abnormality,148,No,0,?,?,?,FALSE,0
+data_hungarian,48,F,asymptomatic,150,227,FALSE,normal,130,Yes,1,flat,9,?,FALSE,0
+data_hungarian,54,F,atypical,150,230,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,54,F,non-anginal pain,130,294,FALSE,abnormality,100,Yes,0,flat,?,?,TRUE,1
+data_hungarian,35,M,atypical,150,264,FALSE,normal,168,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,non-anginal pain,140,259,FALSE,abnormality,170,No,0,?,?,?,FALSE,0
+data_hungarian,43,M,asymptomatic,120,175,FALSE,normal,120,Yes,1,flat,?,reversable defect,TRUE,1
+data_hungarian,59,M,non-anginal pain,130,318,FALSE,normal,120,Yes,1,flat,?,normal,FALSE,0
+data_hungarian,37,M,asymptomatic,120,223,FALSE,normal,168,No,0,?,?,normal,FALSE,0
+data_hungarian,50,M,atypical,140,216,FALSE,normal,170,No,0,?,?,normal,FALSE,0
+data_hungarian,36,M,non-anginal pain,112,340,FALSE,normal,184,No,1,flat,?,normal,FALSE,0
+data_hungarian,41,M,asymptomatic,110,289,FALSE,normal,170,No,0,?,?,fixed defect,TRUE,1
+data_hungarian,50,M,asymptomatic,130,233,FALSE,normal,121,Yes,2,flat,?,reversable defect,TRUE,1
+data_hungarian,47,F,asymptomatic,120,205,FALSE,normal,98,Yes,2,flat,?,fixed defect,TRUE,1
+data_hungarian,45,M,atypical,140,224,TRUE,normal,122,No,0,?,?,?,FALSE,0
+data_hungarian,41,F,atypical,130,245,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,52,F,asymptomatic,130,180,FALSE,normal,140,Yes,1.5,flat,?,?,FALSE,0
+data_hungarian,51,F,atypical,160,194,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,31,M,asymptomatic,120,270,FALSE,normal,153,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,58,M,non-anginal pain,130,213,FALSE,abnormality,140,No,0,?,?,fixed defect,TRUE,1
+data_hungarian,54,M,asymptomatic,150,365,FALSE,abnormality,134,No,1,upsloping,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,112,342,FALSE,abnormality,96,Yes,1,flat,?,?,TRUE,1
+data_hungarian,49,M,atypical,100,253,FALSE,normal,174,No,0,?,?,?,FALSE,0
+data_hungarian,43,F,non-anginal pain,150,?,FALSE,normal,175,No,0,?,?,normal,FALSE,0
+data_hungarian,45,M,asymptomatic,140,224,FALSE,normal,144,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,asymptomatic,120,277,FALSE,normal,125,Yes,1,flat,?,?,TRUE,1
+data_hungarian,50,F,atypical,110,202,FALSE,normal,145,No,0,?,?,?,FALSE,0
+data_hungarian,37,F,atypical,120,260,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,45,F,asymptomatic,132,297,FALSE,normal,144,No,0,?,?,?,FALSE,0
+data_hungarian,32,M,atypical,110,225,FALSE,normal,184,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,160,246,FALSE,abnormality,82,Yes,4,flat,?,?,TRUE,1
+data_hungarian,44,M,asymptomatic,150,412,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,57,M,atypical,140,265,FALSE,abnormality,145,Yes,1,flat,?,?,TRUE,1
+data_hungarian,44,M,atypical,130,215,FALSE,normal,135,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,120,182,FALSE,normal,150,No,0,?,?,?,TRUE,1
+data_hungarian,44,F,asymptomatic,120,218,FALSE,abnormality,115,No,0,?,?,?,FALSE,0
+data_hungarian,55,M,asymptomatic,140,268,FALSE,normal,128,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,46,M,non-anginal pain,150,163,?,normal,116,No,0,?,?,?,FALSE,0
+data_hungarian,32,M,asymptomatic,118,529,FALSE,normal,130,No,0,?,?,?,TRUE,1
+data_hungarian,35,F,asymptomatic,140,167,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,atypical,140,100,FALSE,normal,138,Yes,0,?,?,?,FALSE,0
+data_hungarian,49,M,asymptomatic,130,206,FALSE,normal,170,No,0,?,?,?,TRUE,1
+data_hungarian,55,M,non-anginal pain,110,277,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,atypical,120,238,FALSE,normal,154,No,0,?,?,?,FALSE,0
+data_hungarian,63,M,asymptomatic,150,223,FALSE,normal,115,No,0,?,?,?,TRUE,1
+data_hungarian,52,M,atypical,160,196,FALSE,normal,165,No,0,?,?,?,FALSE,0
+data_hungarian,56,M,asymptomatic,150,213,TRUE,normal,125,Yes,1,flat,?,?,TRUE,1
+data_hungarian,66,M,asymptomatic,140,?,FALSE,normal,94,Yes,1,flat,?,?,TRUE,1
+data_hungarian,65,M,asymptomatic,170,263,TRUE,normal,112,Yes,2,flat,?,?,TRUE,1
+data_hungarian,53,F,atypical,140,216,FALSE,normal,142,Yes,2,flat,?,?,FALSE,0
+data_hungarian,43,M,typical,120,291,FALSE,abnormality,155,No,0,?,?,?,TRUE,1
+data_hungarian,55,M,asymptomatic,140,229,FALSE,normal,110,Yes,0.5,flat,?,?,FALSE,0
+data_hungarian,49,F,atypical,110,?,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,asymptomatic,130,307,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,52,F,atypical,120,210,FALSE,normal,148,No,0,?,?,?,FALSE,0
+data_hungarian,48,M,asymptomatic,160,329,FALSE,normal,92,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,39,F,non-anginal pain,110,182,FALSE,abnormality,180,No,0,?,?,?,FALSE,0
+data_hungarian,58,M,asymptomatic,130,263,FALSE,normal,140,Yes,2,flat,?,?,TRUE,1
+data_hungarian,43,M,atypical,142,207,FALSE,normal,138,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,non-anginal pain,160,147,TRUE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,56,M,asymptomatic,120,85,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,41,M,atypical,125,269,FALSE,normal,144,No,0,?,?,?,FALSE,0
+data_hungarian,65,M,asymptomatic,130,275,FALSE,abnormality,115,Yes,1,flat,?,?,TRUE,1
+data_hungarian,51,M,asymptomatic,130,179,FALSE,normal,100,No,0,?,?,reversable defect,FALSE,0
+data_hungarian,40,F,asymptomatic,150,392,FALSE,normal,130,No,2,flat,?,fixed defect,TRUE,1
+data_hungarian,40,M,asymptomatic,120,466,?,normal,152,Yes,1,flat,?,fixed defect,TRUE,1
+data_hungarian,46,M,asymptomatic,118,186,FALSE,normal,124,No,0,?,?,reversable defect,TRUE,1
+data_hungarian,57,M,atypical,140,260,TRUE,normal,140,No,0,?,?,fixed defect,FALSE,0
+data_hungarian,48,F,asymptomatic,120,254,FALSE,abnormality,110,No,0,?,?,?,FALSE,0
+data_hungarian,34,M,atypical,150,214,FALSE,abnormality,168,No,0,?,?,?,FALSE,0
+data_hungarian,50,M,asymptomatic,140,129,FALSE,normal,135,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,atypical,190,241,FALSE,normal,106,No,0,?,?,?,FALSE,0
+data_hungarian,59,F,atypical,130,188,FALSE,normal,124,No,1,flat,?,?,FALSE,0
+data_hungarian,57,M,asymptomatic,150,255,FALSE,normal,92,Yes,3,flat,?,?,TRUE,1
+data_hungarian,47,M,asymptomatic,140,276,TRUE,normal,125,Yes,0,?,?,?,FALSE,0
+data_hungarian,38,M,atypical,140,297,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,49,F,non-anginal pain,130,207,FALSE,abnormality,135,No,0,?,?,?,FALSE,0
+data_hungarian,33,F,asymptomatic,100,246,FALSE,normal,150,Yes,1,flat,?,?,TRUE,1
+data_hungarian,38,M,asymptomatic,120,282,FALSE,normal,170,No,0,?,?,?,TRUE,1
+data_hungarian,59,F,asymptomatic,130,338,TRUE,abnormality,130,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,35,F,typical,120,160,FALSE,abnormality,185,No,0,?,?,?,FALSE,0
+data_hungarian,34,M,typical,140,156,FALSE,normal,180,No,0,?,?,?,TRUE,1
+data_hungarian,47,F,non-anginal pain,135,248,TRUE,normal,170,No,0,?,?,?,TRUE,1
+data_hungarian,52,F,non-anginal pain,125,272,FALSE,normal,139,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,asymptomatic,110,240,FALSE,abnormality,140,No,0,?,?,normal,FALSE,0
+data_hungarian,58,F,atypical,180,393,FALSE,normal,110,Yes,1,flat,?,reversable defect,TRUE,1
+data_hungarian,58,M,atypical,130,230,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,atypical,120,246,FALSE,normal,110,No,0,?,?,?,FALSE,0
+data_hungarian,34,F,atypical,130,161,FALSE,normal,190,No,0,?,?,?,FALSE,0
+data_hungarian,48,F,asymptomatic,108,163,FALSE,normal,175,No,2,upsloping,?,?,FALSE,0
+data_hungarian,54,F,atypical,120,230,TRUE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,42,M,non-anginal pain,120,228,FALSE,normal,152,Yes,1.5,flat,?,?,FALSE,0
+data_hungarian,38,M,non-anginal pain,145,292,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,asymptomatic,110,202,FALSE,normal,150,Yes,0,?,?,?,TRUE,1
+data_hungarian,56,M,asymptomatic,170,388,FALSE,abnormality,122,Yes,2,flat,?,?,TRUE,1
+data_hungarian,56,M,asymptomatic,150,230,FALSE,abnormality,124,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,61,F,asymptomatic,130,294,FALSE,abnormality,120,Yes,1,flat,?,?,FALSE,0
+data_hungarian,49,M,non-anginal pain,115,265,FALSE,normal,175,No,0,?,?,?,TRUE,1
+data_hungarian,43,F,atypical,120,215,FALSE,abnormality,175,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,atypical,120,?,FALSE,abnormality,146,No,2,upsloping,?,?,FALSE,0
+data_hungarian,54,M,asymptomatic,140,?,FALSE,normal,118,Yes,0,?,?,?,TRUE,1
+data_hungarian,43,M,asymptomatic,150,247,FALSE,normal,130,Yes,2,flat,?,?,TRUE,1
+data_hungarian,52,M,asymptomatic,160,331,FALSE,normal,94,Yes,2.5,?,?,?,TRUE,1
+data_hungarian,50,M,asymptomatic,140,341,FALSE,abnormality,125,Yes,2.5,flat,?,?,TRUE,1
+data_hungarian,47,M,asymptomatic,160,291,FALSE,abnormality,158,Yes,3,flat,?,?,TRUE,1
+data_hungarian,53,M,asymptomatic,140,243,FALSE,normal,155,No,0,?,?,?,FALSE,0
+data_hungarian,56,F,atypical,120,279,FALSE,normal,150,No,1,flat,?,?,TRUE,1
+data_hungarian,39,M,asymptomatic,110,273,FALSE,normal,132,No,0,?,?,?,FALSE,0
+data_hungarian,42,M,atypical,120,198,FALSE,normal,155,No,0,?,?,?,FALSE,0
+data_hungarian,43,F,atypical,120,249,FALSE,abnormality,176,No,0,?,?,?,FALSE,0
+data_hungarian,50,M,atypical,120,168,FALSE,normal,160,No,0,?,0,?,FALSE,0
+data_hungarian,54,M,asymptomatic,130,603,TRUE,normal,125,Yes,1,flat,?,?,TRUE,1
+data_hungarian,39,M,atypical,130,?,FALSE,normal,120,No,0,?,?,?,FALSE,0
+data_hungarian,48,M,atypical,100,?,FALSE,normal,100,No,0,?,?,?,FALSE,0
+data_hungarian,40,M,atypical,130,275,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,55,M,asymptomatic,120,270,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,41,M,atypical,120,291,FALSE,abnormality,160,No,0,?,?,?,FALSE,0
+data_hungarian,56,M,asymptomatic,155,342,TRUE,normal,150,Yes,3,flat,?,?,TRUE,1
+data_hungarian,38,M,asymptomatic,110,?,FALSE,normal,150,Yes,1,flat,?,?,TRUE,1
+data_hungarian,49,M,asymptomatic,140,?,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,44,M,asymptomatic,130,290,FALSE,normal,100,Yes,2,flat,?,?,TRUE,1
+data_hungarian,54,M,atypical,160,195,FALSE,abnormality,130,No,1,upsloping,?,?,FALSE,0
+data_hungarian,59,M,asymptomatic,140,264,TRUE,left ventricular hypertrophy ,119,Yes,0,?,?,?,TRUE,1
+data_hungarian,49,M,asymptomatic,128,212,FALSE,normal,96,Yes,0,?,?,?,TRUE,1
+data_hungarian,47,M,atypical,160,263,FALSE,normal,174,No,0,?,?,?,FALSE,0
+data_hungarian,49,F,atypical,110,?,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,42,M,atypical,120,196,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,52,F,atypical,140,?,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,typical,140,272,TRUE,normal,175,No,2,flat,?,?,TRUE,1
+data_hungarian,50,M,asymptomatic,140,231,FALSE,abnormality,140,Yes,5,flat,?,?,TRUE,1
+data_hungarian,48,M,atypical,140,238,FALSE,normal,118,No,0,?,?,?,FALSE,0
+data_hungarian,58,M,asymptomatic,135,222,FALSE,normal,100,No,0,?,?,?,FALSE,0
+data_hungarian,58,M,non-anginal pain,140,179,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,29,M,atypical,120,243,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,40,M,non-anginal pain,140,?,FALSE,normal,188,No,0,?,?,?,FALSE,0
+data_hungarian,53,M,atypical,140,320,FALSE,normal,162,No,0,?,?,?,FALSE,0
+data_hungarian,49,M,non-anginal pain,140,187,FALSE,normal,172,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,140,266,FALSE,normal,134,Yes,2,flat,?,?,TRUE,1
+data_hungarian,43,M,asymptomatic,140,288,FALSE,normal,135,Yes,2,flat,?,?,TRUE,1
+data_hungarian,54,M,asymptomatic,140,216,FALSE,normal,105,No,1.5,flat,?,?,TRUE,1
+data_hungarian,59,M,atypical,140,287,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,37,M,non-anginal pain,130,194,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,46,F,asymptomatic,130,238,FALSE,normal,90,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,130,225,FALSE,normal,120,Yes,2,flat,?,?,TRUE,1
+data_hungarian,51,M,atypical,130,224,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,140,404,FALSE,normal,124,Yes,2,flat,?,?,TRUE,1
+data_hungarian,46,M,asymptomatic,110,238,FALSE,abnormality,140,Yes,1,flat,?,normal,FALSE,0
+data_hungarian,54,F,atypical,160,312,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,58,M,non-anginal pain,160,211,TRUE,abnormality,92,No,0,?,?,?,TRUE,1
+data_hungarian,58,M,atypical,130,251,FALSE,normal,110,No,0,?,?,?,FALSE,0
+data_hungarian,41,M,asymptomatic,120,237,?,normal,138,Yes,1,flat,?,?,TRUE,1
+data_hungarian,50,F,asymptomatic,120,328,FALSE,normal,110,Yes,1,flat,?,?,FALSE,0
+data_hungarian,53,M,asymptomatic,180,285,FALSE,abnormality,120,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,46,M,asymptomatic,180,280,FALSE,abnormality,120,No,0,?,?,?,FALSE,0
+data_hungarian,50,M,atypical,170,209,FALSE,abnormality,116,No,0,?,?,?,FALSE,0
+data_hungarian,48,M,atypical,130,245,FALSE,normal,160,No,0,?,?,?,FALSE,0
+data_hungarian,45,M,non-anginal pain,135,?,FALSE,normal,110,No,0,?,?,?,FALSE,0
+data_hungarian,41,F,atypical,125,184,FALSE,normal,180,No,0,?,?,?,FALSE,0
+data_hungarian,62,F,typical,160,193,FALSE,normal,116,No,0,?,?,?,FALSE,0
+data_hungarian,49,M,asymptomatic,120,297,?,normal,132,No,1,flat,?,?,FALSE,0
+data_hungarian,42,M,atypical,150,268,FALSE,normal,136,No,0,?,?,?,FALSE,0
+data_hungarian,53,M,asymptomatic,120,246,FALSE,normal,116,Yes,0,?,?,?,TRUE,1
+data_hungarian,57,F,typical,130,308,FALSE,normal,98,No,1,flat,?,?,FALSE,0
+data_hungarian,47,M,typical,110,249,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,non-anginal pain,120,230,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,42,M,non-anginal pain,160,147,FALSE,normal,146,No,0,?,?,?,FALSE,0
+data_hungarian,31,F,atypical,100,219,FALSE,abnormality,150,No,0,?,?,?,FALSE,0
+data_hungarian,56,M,atypical,130,184,FALSE,normal,100,No,0,?,?,?,FALSE,0
+data_hungarian,50,M,asymptomatic,150,215,FALSE,normal,140,Yes,0,?,?,?,FALSE,0
+data_hungarian,35,M,atypical,120,308,FALSE,left ventricular hypertrophy ,180,No,0,?,?,?,FALSE,0
+data_hungarian,35,M,atypical,110,257,FALSE,normal,140,No,0,?,?,?,TRUE,1
+data_hungarian,28,M,atypical,130,132,FALSE,left ventricular hypertrophy ,185,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,asymptomatic,125,216,FALSE,normal,140,No,0,?,?,?,TRUE,1
+data_hungarian,48,M,asymptomatic,106,263,TRUE,normal,110,No,0,?,?,?,TRUE,1
+data_hungarian,50,F,non-anginal pain,140,288,FALSE,normal,140,Yes,0,?,?,reversable defect,TRUE,1
+data_hungarian,56,M,non-anginal pain,130,276,FALSE,normal,128,Yes,1,upsloping,?,fixed defect,FALSE,0
+data_hungarian,56,F,non-anginal pain,130,219,?,abnormality,164,No,0,?,?,reversable defect,FALSE,0
+data_hungarian,47,M,asymptomatic,150,226,FALSE,normal,98,Yes,1.5,flat,0,reversable defect,TRUE,1
+data_hungarian,30,F,typical,170,237,FALSE,abnormality,170,No,0,?,?,fixed defect,FALSE,0
+data_hungarian,39,M,asymptomatic,110,280,FALSE,normal,150,No,0,?,?,fixed defect,TRUE,1
+data_hungarian,54,M,non-anginal pain,120,217,FALSE,normal,137,No,0,?,?,?,FALSE,0
+data_hungarian,55,M,atypical,140,196,FALSE,normal,150,No,0,?,?,reversable defect,FALSE,0
+data_hungarian,29,M,atypical,140,?,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,asymptomatic,130,222,FALSE,normal,112,No,0,?,?,?,TRUE,1
+data_hungarian,51,F,asymptomatic,160,303,FALSE,normal,150,Yes,1,flat,?,?,TRUE,1
+data_hungarian,48,F,non-anginal pain,120,195,FALSE,normal,125,No,0,?,?,?,FALSE,0
+data_hungarian,33,M,non-anginal pain,120,298,FALSE,normal,185,No,0,?,?,?,FALSE,0
+data_hungarian,55,M,atypical,120,256,TRUE,normal,137,No,0,?,?,reversable defect,FALSE,0
+data_hungarian,50,M,asymptomatic,145,264,FALSE,normal,150,No,0,?,?,?,TRUE,1
+data_hungarian,53,M,non-anginal pain,120,195,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,38,M,asymptomatic,92,117,FALSE,normal,134,Yes,2.5,flat,?,?,TRUE,1
+data_hungarian,41,M,atypical,120,295,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,37,F,asymptomatic,130,173,FALSE,abnormality,184,No,0,?,?,?,FALSE,0
+data_hungarian,37,M,asymptomatic,130,315,FALSE,normal,158,No,0,?,?,?,FALSE,0
+data_hungarian,40,M,non-anginal pain,130,281,FALSE,normal,167,No,0,?,?,?,FALSE,0
+data_hungarian,38,F,atypical,120,275,?,normal,129,No,0,?,?,?,FALSE,0
+data_hungarian,41,M,asymptomatic,112,250,FALSE,normal,142,No,0,?,?,?,FALSE,0
+data_hungarian,54,F,atypical,140,309,?,abnormality,140,No,0,?,?,?,FALSE,0
+data_hungarian,39,M,atypical,120,200,FALSE,normal,160,Yes,1,flat,?,?,FALSE,0
+data_hungarian,41,M,asymptomatic,120,336,FALSE,normal,118,Yes,3,flat,?,?,TRUE,1
+data_hungarian,55,M,typical,140,295,FALSE,?,136,No,0,?,?,?,TRUE,1
+data_hungarian,48,M,asymptomatic,160,355,FALSE,normal,99,Yes,2,flat,?,?,TRUE,1
+data_hungarian,48,M,asymptomatic,160,193,FALSE,normal,102,Yes,3,flat,?,?,TRUE,1
+data_hungarian,55,M,atypical,145,326,FALSE,normal,155,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,asymptomatic,200,198,FALSE,normal,142,Yes,2,flat,?,?,TRUE,1
+data_hungarian,55,M,atypical,160,292,TRUE,normal,143,Yes,2,flat,?,?,TRUE,1
+data_hungarian,43,F,atypical,120,266,FALSE,normal,118,No,0,?,?,?,FALSE,0
+data_hungarian,48,M,asymptomatic,160,268,FALSE,normal,103,Yes,1,flat,?,?,TRUE,1
+data_hungarian,54,M,typical,120,171,FALSE,normal,137,No,2,upsloping,?,?,FALSE,0
+data_hungarian,54,M,non-anginal pain,120,237,FALSE,normal,150,Yes,1.5,?,?,reversable defect,TRUE,1
+data_hungarian,48,M,asymptomatic,122,275,TRUE,abnormality,150,Yes,2,downsloping,?,?,TRUE,1
+data_hungarian,45,M,asymptomatic,130,219,FALSE,abnormality,130,Yes,1,flat,?,?,TRUE,1
+data_hungarian,49,M,asymptomatic,130,341,FALSE,normal,120,Yes,1,flat,?,?,TRUE,1
+data_hungarian,44,M,asymptomatic,135,491,FALSE,normal,135,No,0,?,?,?,TRUE,1
+data_hungarian,48,M,asymptomatic,120,260,FALSE,normal,115,No,2,flat,?,?,TRUE,1
+data_hungarian,61,M,asymptomatic,125,292,FALSE,abnormality,115,Yes,0,?,?,?,FALSE,0
+data_hungarian,62,M,atypical,140,271,FALSE,normal,152,No,1,upsloping,?,?,FALSE,0
+data_hungarian,55,M,asymptomatic,145,248,FALSE,normal,96,Yes,2,flat,?,?,TRUE,1
+data_hungarian,53,F,non-anginal pain,120,274,FALSE,normal,130,No,0,?,?,?,FALSE,0
+data_hungarian,55,F,atypical,130,394,FALSE,left ventricular hypertrophy ,150,No,0,?,?,?,FALSE,0
+data_hungarian,36,M,non-anginal pain,150,160,FALSE,normal,172,No,0,?,?,?,FALSE,0
+data_hungarian,51,F,non-anginal pain,150,200,FALSE,normal,120,No,0.5,upsloping,?,?,FALSE,0
+data_hungarian,55,F,atypical,122,320,FALSE,normal,155,No,0,?,?,?,FALSE,0
+data_hungarian,46,M,atypical,140,275,FALSE,normal,165,Yes,0,?,?,?,FALSE,0
+data_hungarian,54,F,atypical,120,221,FALSE,normal,138,No,1,upsloping,?,?,FALSE,0
+data_hungarian,46,M,asymptomatic,120,231,FALSE,normal,115,Yes,0,?,?,?,TRUE,1
+data_hungarian,59,M,asymptomatic,130,?,FALSE,normal,125,No,0,?,?,?,TRUE,1
+data_hungarian,47,M,non-anginal pain,140,193,FALSE,normal,145,Yes,1,flat,?,?,TRUE,1
+data_hungarian,54,M,atypical,160,305,FALSE,normal,175,No,0,?,?,?,FALSE,0
+data_hungarian,52,M,asymptomatic,130,298,FALSE,normal,110,Yes,1,flat,?,?,TRUE,1
+data_hungarian,34,M,atypical,98,220,FALSE,normal,150,No,0,?,?,?,FALSE,0
+data_hungarian,54,M,asymptomatic,130,242,FALSE,normal,91,Yes,1,flat,?,?,TRUE,1
+data_hungarian,47,F,non-anginal pain,130,?,FALSE,normal,145,No,2,flat,?,?,FALSE,0
+data_hungarian,45,M,asymptomatic,120,225,FALSE,normal,140,No,0,?,?,?,FALSE,0
+data_hungarian,32,F,atypical,105,198,FALSE,normal,165,No,0,?,?,?,FALSE,0
+data_hungarian,55,M,asymptomatic,140,201,FALSE,normal,130,Yes,3,flat,?,?,TRUE,1
+data_hungarian,55,M,non-anginal pain,120,220,FALSE,left ventricular hypertrophy ,134,No,0,?,?,?,FALSE,0
+data_hungarian,45,F,atypical,180,?,FALSE,normal,180,No,0,?,?,?,FALSE,0
+data_hungarian,59,M,non-anginal pain,180,213,FALSE,normal,100,No,0,?,?,?,FALSE,0
+data_hungarian,51,M,non-anginal pain,135,160,FALSE,normal,150,No,2,flat,?,?,TRUE,1
+data_hungarian,52,M,asymptomatic,170,?,FALSE,normal,126,Yes,1.5,flat,?,?,TRUE,1
+data_hungarian,57,F,asymptomatic,180,347,FALSE,abnormality,126,Yes,0.8,flat,?,?,FALSE,0
+data_hungarian,54,F,atypical,130,253,FALSE,abnormality,155,No,0,?,?,?,FALSE,0
+data_hungarian,60,M,non-anginal pain,120,246,FALSE,left ventricular hypertrophy ,135,No,0,?,?,?,FALSE,0
+data_hungarian,49,M,asymptomatic,150,222,FALSE,normal,122,No,2,flat,?,?,TRUE,1
+data_hungarian,51,F,non-anginal pain,130,220,FALSE,normal,160,Yes,2,upsloping,?,?,FALSE,0
+data_hungarian,55,F,atypical,110,344,FALSE,abnormality,160,No,0,?,?,?,FALSE,0
+data_hungarian,42,M,asymptomatic,140,358,FALSE,normal,170,No,0,?,?,?,FALSE,0
+data_hungarian,51,F,non-anginal pain,110,190,FALSE,normal,120,No,0,?,?,?,FALSE,0
+data_hungarian,59,M,asymptomatic,140,?,FALSE,normal,140,No,0,?,0,?,FALSE,0
+data_hungarian,53,M,atypical,120,?,FALSE,normal,132,No,0,?,?,?,FALSE,0
+data_hungarian,48,F,atypical,?,308,FALSE,abnormality,?,?,2,upsloping,?,?,FALSE,0
+data_hungarian,36,M,atypical,120,166,FALSE,normal,180,No,0,?,?,?,FALSE,0
+data_hungarian,48,M,non-anginal pain,110,211,FALSE,normal,138,No,0,?,?,fixed defect,FALSE,0
+data_hungarian,47,F,atypical,140,257,FALSE,normal,135,No,1,upsloping,?,?,FALSE,0
+data_hungarian,53,M,asymptomatic,130,182,FALSE,normal,148,No,0,?,?,?,FALSE,0
+data_switzerland,32,M,typical,95,0,?,normal,127,No,0.7,upsloping,?,?,TRUE,1
+data_switzerland,34,M,asymptomatic,115,0,?,?,154,No,0.2,upsloping,?,?,TRUE,1
+data_switzerland,35,M,asymptomatic,?,0,?,normal,130,Yes,?,?,?,reversable defect,TRUE,1
+data_switzerland,36,M,asymptomatic,110,0,?,normal,125,Yes,1,flat,?,fixed defect,TRUE,1
+data_switzerland,38,F,asymptomatic,105,0,?,normal,166,No,2.8,upsloping,?,?,TRUE,1
+data_switzerland,38,F,asymptomatic,110,0,FALSE,normal,156,No,0,flat,?,normal,TRUE,1
+data_switzerland,38,M,non-anginal pain,100,0,?,normal,179,No,-1.1,upsloping,?,?,FALSE,0
+data_switzerland,38,M,non-anginal pain,115,0,FALSE,normal,128,Yes,0,flat,?,reversable defect,TRUE,1
+data_switzerland,38,M,asymptomatic,135,0,?,normal,150,No,0,?,?,normal,TRUE,1
+data_switzerland,38,M,asymptomatic,150,0,?,normal,120,Yes,?,?,?,normal,TRUE,1
+data_switzerland,40,M,asymptomatic,95,0,?,abnormality,144,No,0,upsloping,?,?,TRUE,1
+data_switzerland,41,M,asymptomatic,125,0,?,normal,176,No,1.6,upsloping,?,?,TRUE,1
+data_switzerland,42,M,asymptomatic,105,0,?,normal,128,Yes,-1.5,downsloping,?,?,TRUE,1
+data_switzerland,42,M,asymptomatic,145,0,FALSE,normal,99,Yes,0,flat,?,?,TRUE,1
+data_switzerland,43,M,asymptomatic,100,0,?,normal,122,No,1.5,downsloping,?,?,TRUE,1
+data_switzerland,43,M,asymptomatic,115,0,FALSE,normal,145,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,43,M,asymptomatic,140,0,FALSE,abnormality,140,Yes,0.5,upsloping,?,reversable defect,TRUE,1
+data_switzerland,45,M,non-anginal pain,110,0,?,normal,138,No,-0.1,upsloping,?,?,FALSE,0
+data_switzerland,46,M,asymptomatic,100,0,?,abnormality,133,No,-2.6,flat,?,?,TRUE,1
+data_switzerland,46,M,asymptomatic,115,0,FALSE,normal,113,Yes,1.5,flat,?,reversable defect,TRUE,1
+data_switzerland,47,M,non-anginal pain,110,0,?,normal,120,Yes,0,?,?,normal,TRUE,1
+data_switzerland,47,M,non-anginal pain,155,0,FALSE,normal,118,Yes,1,flat,?,normal,TRUE,1
+data_switzerland,47,M,asymptomatic,110,0,?,abnormality,149,No,2.1,upsloping,?,?,TRUE,1
+data_switzerland,47,M,asymptomatic,160,0,FALSE,normal,124,Yes,0,flat,?,reversable defect,TRUE,1
+data_switzerland,48,M,asymptomatic,115,0,?,normal,128,No,0,flat,?,fixed defect,TRUE,1
+data_switzerland,50,F,asymptomatic,160,0,?,normal,110,No,0,?,?,normal,TRUE,1
+data_switzerland,50,M,asymptomatic,115,0,FALSE,normal,120,Yes,0.5,flat,?,fixed defect,TRUE,1
+data_switzerland,50,M,asymptomatic,120,0,FALSE,abnormality,156,Yes,0,upsloping,?,fixed defect,TRUE,1
+data_switzerland,50,M,asymptomatic,145,0,?,normal,139,Yes,0.7,flat,?,?,TRUE,1
+data_switzerland,51,F,asymptomatic,120,0,?,normal,127,Yes,1.5,upsloping,?,?,TRUE,1
+data_switzerland,51,M,asymptomatic,110,0,?,normal,92,No,0,flat,?,?,TRUE,1
+data_switzerland,51,M,asymptomatic,120,0,TRUE,normal,104,No,0,flat,?,normal,TRUE,1
+data_switzerland,51,M,asymptomatic,130,0,?,normal,170,No,-0.7,upsloping,?,?,TRUE,1
+data_switzerland,51,M,asymptomatic,130,0,?,abnormality,163,No,0,?,?,reversable defect,TRUE,1
+data_switzerland,51,M,asymptomatic,140,0,FALSE,normal,60,No,0,flat,?,normal,TRUE,1
+data_switzerland,51,M,asymptomatic,95,0,?,normal,126,No,2.2,flat,?,?,TRUE,1
+data_switzerland,52,M,asymptomatic,130,0,?,normal,120,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,52,M,asymptomatic,135,0,?,normal,128,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,52,M,asymptomatic,165,0,?,normal,122,Yes,1,upsloping,?,reversable defect,TRUE,1
+data_switzerland,52,M,asymptomatic,95,0,?,normal,82,Yes,?,?,?,?,TRUE,1
+data_switzerland,53,M,atypical,120,0,FALSE,normal,95,No,0,flat,?,normal,TRUE,1
+data_switzerland,53,M,atypical,130,0,?,abnormality,120,No,0.7,downsloping,?,?,FALSE,0
+data_switzerland,53,M,non-anginal pain,105,0,FALSE,normal,115,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,53,M,non-anginal pain,160,0,?,left ventricular hypertrophy ,122,Yes,0,?,?,reversable defect,TRUE,1
+data_switzerland,53,M,asymptomatic,120,0,?,normal,120,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,53,M,asymptomatic,125,0,?,normal,120,No,1.5,upsloping,?,?,TRUE,1
+data_switzerland,53,M,asymptomatic,130,0,FALSE,left ventricular hypertrophy ,135,Yes,1,flat,?,reversable defect,TRUE,1
+data_switzerland,53,M,asymptomatic,80,0,?,normal,141,Yes,2,downsloping,?,?,FALSE,0
+data_switzerland,54,M,asymptomatic,120,0,FALSE,normal,155,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,54,M,asymptomatic,130,0,?,normal,110,Yes,3,flat,?,reversable defect,TRUE,1
+data_switzerland,54,M,asymptomatic,180,0,?,normal,150,No,1.5,flat,?,reversable defect,TRUE,1
+data_switzerland,55,M,atypical,140,0,?,abnormality,150,No,0.2,upsloping,?,?,FALSE,0
+data_switzerland,55,M,asymptomatic,115,0,?,normal,155,No,0.1,flat,?,?,TRUE,1
+data_switzerland,55,M,asymptomatic,120,0,FALSE,abnormality,92,No,0.3,upsloping,?,reversable defect,TRUE,1
+data_switzerland,55,M,asymptomatic,140,0,FALSE,normal,83,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,56,M,non-anginal pain,120,0,FALSE,normal,97,No,0,flat,?,reversable defect,FALSE,0
+data_switzerland,56,M,non-anginal pain,125,0,?,normal,98,No,-2,flat,?,reversable defect,TRUE,1
+data_switzerland,56,M,non-anginal pain,155,0,FALSE,abnormality,99,No,0,flat,?,normal,TRUE,1
+data_switzerland,56,M,asymptomatic,115,0,?,abnormality,82,No,-1,upsloping,?,?,TRUE,1
+data_switzerland,56,M,asymptomatic,120,0,FALSE,abnormality,100,Yes,-1,downsloping,?,reversable defect,TRUE,1
+data_switzerland,56,M,asymptomatic,120,0,FALSE,abnormality,148,No,0,flat,?,?,TRUE,1
+data_switzerland,56,M,asymptomatic,125,0,TRUE,normal,103,Yes,1,flat,?,reversable defect,TRUE,1
+data_switzerland,56,M,asymptomatic,140,0,?,normal,121,Yes,1.8,upsloping,?,?,TRUE,1
+data_switzerland,57,M,non-anginal pain,105,0,?,normal,148,No,0.3,flat,?,?,TRUE,1
+data_switzerland,57,M,asymptomatic,110,0,?,abnormality,131,Yes,1.4,upsloping,1,?,TRUE,1
+data_switzerland,57,M,asymptomatic,140,0,FALSE,normal,120,Yes,2,flat,?,fixed defect,TRUE,1
+data_switzerland,57,M,asymptomatic,140,0,?,normal,100,Yes,0,?,?,fixed defect,TRUE,1
+data_switzerland,57,M,asymptomatic,160,0,?,normal,98,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,57,M,asymptomatic,95,0,?,normal,182,No,0.7,downsloping,?,?,TRUE,1
+data_switzerland,58,M,asymptomatic,115,0,?,normal,138,No,0.5,upsloping,?,?,TRUE,1
+data_switzerland,58,M,asymptomatic,130,0,FALSE,abnormality,100,Yes,1,flat,?,fixed defect,TRUE,1
+data_switzerland,58,M,asymptomatic,170,0,?,abnormality,105,Yes,0,?,?,normal,TRUE,1
+data_switzerland,59,M,non-anginal pain,125,0,?,normal,175,No,2.6,flat,?,?,TRUE,1
+data_switzerland,59,M,asymptomatic,110,0,?,normal,94,No,0,?,?,fixed defect,TRUE,1
+data_switzerland,59,M,asymptomatic,120,0,FALSE,normal,115,No,0,flat,?,normal,TRUE,1
+data_switzerland,59,M,asymptomatic,125,0,?,normal,119,Yes,0.9,upsloping,?,?,TRUE,1
+data_switzerland,59,M,asymptomatic,135,0,FALSE,normal,115,Yes,1,flat,?,reversable defect,TRUE,1
+data_switzerland,60,M,non-anginal pain,115,0,?,normal,143,No,2.4,upsloping,?,?,TRUE,1
+data_switzerland,60,M,asymptomatic,125,0,?,normal,110,No,0.1,upsloping,2,?,TRUE,1
+data_switzerland,60,M,asymptomatic,130,0,?,abnormality,130,Yes,1.1,downsloping,1,?,TRUE,1
+data_switzerland,60,M,asymptomatic,135,0,FALSE,normal,63,Yes,0.5,upsloping,?,reversable defect,TRUE,1
+data_switzerland,60,M,asymptomatic,160,0,FALSE,abnormality,99,Yes,0.5,flat,?,reversable defect,TRUE,1
+data_switzerland,60,M,asymptomatic,160,0,?,normal,149,No,0.4,flat,?,?,TRUE,1
+data_switzerland,61,M,non-anginal pain,200,0,?,abnormality,70,No,0,?,?,normal,TRUE,1
+data_switzerland,61,M,asymptomatic,105,0,?,normal,110,Yes,1.5,upsloping,?,?,TRUE,1
+data_switzerland,61,M,asymptomatic,110,0,?,normal,113,No,1.4,flat,?,?,TRUE,1
+data_switzerland,61,M,asymptomatic,125,0,FALSE,normal,105,Yes,0,downsloping,?,reversable defect,TRUE,1
+data_switzerland,61,M,asymptomatic,130,0,FALSE,left ventricular hypertrophy ,115,No,0,flat,?,reversable defect,TRUE,1
+data_switzerland,61,M,asymptomatic,130,0,?,normal,77,No,2.5,flat,?,?,TRUE,1
+data_switzerland,61,M,asymptomatic,150,0,FALSE,normal,105,Yes,0,flat,?,reversable defect,TRUE,1
+data_switzerland,61,M,asymptomatic,150,0,FALSE,normal,117,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,61,M,asymptomatic,160,0,TRUE,abnormality,145,No,1,flat,?,reversable defect,TRUE,1
+data_switzerland,62,F,typical,140,0,?,normal,143,No,0,?,?,normal,TRUE,1
+data_switzerland,62,F,asymptomatic,120,0,?,abnormality,123,Yes,1.7,downsloping,?,?,TRUE,1
+data_switzerland,62,M,typical,120,0,?,left ventricular hypertrophy ,134,No,-0.8,flat,2,?,TRUE,1
+data_switzerland,62,M,non-anginal pain,160,0,FALSE,normal,72,Yes,0,flat,?,normal,TRUE,1
+data_switzerland,62,M,asymptomatic,115,0,?,normal,128,Yes,2.5,downsloping,?,?,TRUE,1
+data_switzerland,62,M,asymptomatic,115,0,?,normal,72,Yes,-0.5,flat,?,normal,TRUE,1
+data_switzerland,62,M,asymptomatic,150,0,?,abnormality,78,No,2,flat,?,reversable defect,TRUE,1
+data_switzerland,63,M,asymptomatic,100,0,?,normal,109,No,-0.9,flat,?,?,TRUE,1
+data_switzerland,63,M,asymptomatic,140,0,?,left ventricular hypertrophy ,149,No,2,upsloping,?,?,TRUE,1
+data_switzerland,63,M,asymptomatic,150,0,FALSE,normal,86,Yes,2,flat,?,?,TRUE,1
+data_switzerland,63,M,asymptomatic,150,0,?,abnormality,154,No,3.7,upsloping,?,?,TRUE,1
+data_switzerland,63,M,asymptomatic,185,0,FALSE,normal,98,Yes,0,upsloping,?,reversable defect,TRUE,1
+data_switzerland,64,F,asymptomatic,200,0,FALSE,normal,140,Yes,1,flat,?,normal,TRUE,1
+data_switzerland,64,F,asymptomatic,95,0,?,normal,145,No,1.1,downsloping,?,?,TRUE,1
+data_switzerland,64,M,asymptomatic,110,0,?,normal,114,Yes,1.3,downsloping,?,?,TRUE,1
+data_switzerland,65,M,asymptomatic,115,0,FALSE,normal,93,Yes,0,flat,?,reversable defect,TRUE,1
+data_switzerland,65,M,asymptomatic,145,0,?,abnormality,67,No,?,?,?,fixed defect,TRUE,1
+data_switzerland,65,M,asymptomatic,155,0,?,normal,154,No,1,upsloping,?,?,FALSE,0
+data_switzerland,65,M,asymptomatic,160,0,TRUE,abnormality,122,No,?,?,?,reversable defect,TRUE,1
+data_switzerland,66,F,asymptomatic,155,0,?,normal,90,No,0,?,?,reversable defect,TRUE,1
+data_switzerland,66,M,asymptomatic,150,0,FALSE,normal,108,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,67,M,typical,145,0,FALSE,left ventricular hypertrophy ,125,No,0,flat,?,normal,TRUE,1
+data_switzerland,68,M,asymptomatic,135,0,FALSE,abnormality,120,Yes,0,upsloping,?,reversable defect,TRUE,1
+data_switzerland,68,M,asymptomatic,145,0,?,normal,136,No,1.8,upsloping,?,?,TRUE,1
+data_switzerland,69,M,asymptomatic,135,0,FALSE,normal,130,No,0,flat,?,fixed defect,TRUE,1
+data_switzerland,69,M,asymptomatic,?,0,FALSE,abnormality,?,?,?,?,?,reversable defect,TRUE,1
+data_switzerland,70,M,asymptomatic,115,0,FALSE,abnormality,92,Yes,0,flat,?,reversable defect,TRUE,1
+data_switzerland,70,M,asymptomatic,140,0,TRUE,normal,157,Yes,2,flat,?,reversable defect,TRUE,1
+data_switzerland,72,M,non-anginal pain,160,0,?,left ventricular hypertrophy ,114,No,1.6,flat,2,?,FALSE,0
+data_switzerland,73,F,non-anginal pain,160,0,FALSE,abnormality,121,No,0,upsloping,?,normal,TRUE,1
+data_switzerland,74,M,atypical,145,0,?,abnormality,123,No,1.3,upsloping,?,?,TRUE,1
+data_va,63,M,asymptomatic,140,260,FALSE,abnormality,112,Yes,3,flat,?,?,TRUE,1
+data_va,44,M,asymptomatic,130,209,FALSE,abnormality,127,No,0,?,?,?,FALSE,0
+data_va,60,M,asymptomatic,132,218,FALSE,abnormality,140,Yes,1.5,downsloping,?,?,TRUE,1
+data_va,55,M,asymptomatic,142,228,FALSE,abnormality,149,Yes,2.5,upsloping,?,?,TRUE,1
+data_va,66,M,non-anginal pain,110,213,TRUE,left ventricular hypertrophy ,99,Yes,1.3,flat,?,?,FALSE,0
+data_va,66,M,non-anginal pain,120,0,FALSE,abnormality,120,No,-0.5,upsloping,?,?,FALSE,0
+data_va,65,M,asymptomatic,150,236,TRUE,abnormality,105,Yes,0,?,?,?,TRUE,1
+data_va,60,M,non-anginal pain,180,0,FALSE,abnormality,140,Yes,1.5,flat,?,?,FALSE,0
+data_va,60,M,non-anginal pain,120,0,?,normal,141,Yes,2,upsloping,?,?,TRUE,1
+data_va,60,M,atypical,160,267,TRUE,abnormality,157,No,0.5,flat,?,?,TRUE,1
+data_va,56,M,atypical,126,166,FALSE,abnormality,140,No,0,?,?,?,FALSE,0
+data_va,59,M,asymptomatic,140,0,FALSE,abnormality,117,Yes,1,flat,?,?,TRUE,1
+data_va,62,M,asymptomatic,110,0,FALSE,normal,120,Yes,0.5,flat,?,normal,TRUE,1
+data_va,63,M,non-anginal pain,?,0,FALSE,left ventricular hypertrophy ,?,?,?,?,?,?,TRUE,1
+data_va,57,M,asymptomatic,128,0,TRUE,abnormality,148,Yes,1,flat,?,?,TRUE,1
+data_va,62,M,asymptomatic,120,220,FALSE,abnormality,86,No,0,?,?,?,FALSE,0
+data_va,63,M,asymptomatic,170,177,FALSE,normal,84,Yes,2.5,downsloping,?,?,TRUE,1
+data_va,46,M,asymptomatic,110,236,FALSE,normal,125,Yes,2,flat,?,?,TRUE,1
+data_va,63,M,asymptomatic,126,0,FALSE,abnormality,120,No,1.5,downsloping,?,?,FALSE,0
+data_va,60,M,asymptomatic,152,0,FALSE,abnormality,118,Yes,0,?,?,reversable defect,FALSE,0
+data_va,58,M,asymptomatic,116,0,FALSE,normal,124,No,1,upsloping,?,?,TRUE,1
+data_va,64,M,asymptomatic,120,0,TRUE,abnormality,106,No,2,flat,?,?,TRUE,1
+data_va,63,M,non-anginal pain,130,0,FALSE,abnormality,111,Yes,0,?,?,?,TRUE,1
+data_va,74,M,non-anginal pain,?,0,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,52,M,non-anginal pain,128,0,FALSE,abnormality,180,No,3,upsloping,?,?,TRUE,1
+data_va,69,M,asymptomatic,130,0,TRUE,abnormality,129,No,1,flat,?,fixed defect,TRUE,1
+data_va,51,M,asymptomatic,?,0,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,60,M,asymptomatic,130,186,TRUE,abnormality,140,Yes,0.5,flat,?,?,TRUE,1
+data_va,56,M,asymptomatic,120,100,FALSE,normal,120,Yes,1.5,flat,0,reversable defect,TRUE,1
+data_va,55,M,non-anginal pain,?,228,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,54,M,asymptomatic,?,0,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,77,M,asymptomatic,124,171,FALSE,abnormality,110,Yes,2,upsloping,?,?,TRUE,1
+data_va,63,M,asymptomatic,160,230,TRUE,normal,105,Yes,1,flat,?,?,TRUE,1
+data_va,55,M,non-anginal pain,0,0,FALSE,normal,155,No,1.5,flat,?,?,TRUE,1
+data_va,52,M,non-anginal pain,122,0,FALSE,normal,110,Yes,2,downsloping,?,?,TRUE,1
+data_va,64,M,asymptomatic,144,0,FALSE,abnormality,122,Yes,1,flat,?,?,TRUE,1
+data_va,60,M,asymptomatic,?,281,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,60,M,asymptomatic,120,0,FALSE,normal,133,Yes,2,upsloping,?,reversable defect,FALSE,0
+data_va,58,M,asymptomatic,?,203,TRUE,normal,?,?,?,?,?,?,TRUE,1
+data_va,59,M,asymptomatic,154,0,FALSE,abnormality,131,Yes,1.5,?,0,?,FALSE,0
+data_va,61,M,non-anginal pain,120,0,FALSE,normal,80,Yes,0,flat,?,?,TRUE,1
+data_va,40,M,asymptomatic,125,0,TRUE,normal,165,No,0,?,?,reversable defect,TRUE,1
+data_va,61,M,asymptomatic,?,0,TRUE,abnormality,86,No,1.5,flat,?,reversable defect,TRUE,1
+data_va,41,M,asymptomatic,104,0,FALSE,abnormality,111,No,0,?,?,?,FALSE,0
+data_va,57,M,asymptomatic,?,277,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,63,M,asymptomatic,136,0,FALSE,normal,84,Yes,0,?,?,reversable defect,TRUE,1
+data_va,59,M,asymptomatic,122,233,FALSE,normal,117,Yes,1.3,downsloping,?,?,TRUE,1
+data_va,51,M,asymptomatic,128,0,FALSE,normal,107,No,0,?,?,?,FALSE,0
+data_va,59,M,non-anginal pain,?,0,FALSE,normal,128,Yes,2,downsloping,?,?,TRUE,1
+data_va,42,M,non-anginal pain,134,240,?,normal,160,No,0,?,?,?,FALSE,0
+data_va,55,M,non-anginal pain,120,0,FALSE,abnormality,125,Yes,2.5,flat,?,reversable defect,TRUE,1
+data_va,63,F,atypical,?,0,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,62,M,asymptomatic,152,153,FALSE,abnormality,97,Yes,1.6,upsloping,?,reversable defect,TRUE,1
+data_va,56,M,atypical,124,224,TRUE,normal,161,No,2,flat,?,?,FALSE,0
+data_va,53,M,asymptomatic,126,0,FALSE,normal,106,No,0,?,?,?,TRUE,1
+data_va,68,M,asymptomatic,138,0,FALSE,normal,130,Yes,3,flat,?,?,TRUE,1
+data_va,53,M,asymptomatic,154,0,?,abnormality,140,Yes,1.5,flat,?,?,TRUE,1
+data_va,60,M,non-anginal pain,?,316,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,62,M,atypical,?,0,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,59,M,asymptomatic,178,0,TRUE,left ventricular hypertrophy ,120,Yes,0,?,?,reversable defect,TRUE,1
+data_va,51,M,asymptomatic,?,218,TRUE,left ventricular hypertrophy ,?,?,?,?,?,?,FALSE,0
+data_va,61,M,asymptomatic,110,0,?,normal,108,Yes,2,downsloping,?,?,TRUE,1
+data_va,57,M,asymptomatic,130,311,?,abnormality,148,Yes,2,flat,?,?,TRUE,1
+data_va,56,M,non-anginal pain,170,0,FALSE,left ventricular hypertrophy ,123,Yes,2.5,?,?,?,TRUE,1
+data_va,58,M,atypical,126,0,TRUE,normal,110,Yes,2,flat,?,?,TRUE,1
+data_va,69,M,non-anginal pain,140,0,?,abnormality,118,No,2.5,downsloping,?,?,TRUE,1
+data_va,67,M,typical,142,270,TRUE,normal,125,No,2.5,upsloping,?,?,TRUE,1
+data_va,58,M,asymptomatic,120,0,FALSE,left ventricular hypertrophy ,106,Yes,1.5,downsloping,?,reversable defect,TRUE,1
+data_va,65,M,asymptomatic,?,0,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,63,M,atypical,?,217,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,55,M,atypical,110,214,TRUE,abnormality,180,No,?,?,?,?,FALSE,0
+data_va,57,M,asymptomatic,140,214,FALSE,abnormality,144,Yes,2,flat,?,fixed defect,TRUE,1
+data_va,65,M,typical,?,252,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,54,M,asymptomatic,136,220,FALSE,normal,140,Yes,3,flat,?,?,TRUE,1
+data_va,72,M,non-anginal pain,120,214,FALSE,normal,102,Yes,1,flat,?,?,TRUE,1
+data_va,75,M,asymptomatic,170,203,TRUE,abnormality,108,No,0,?,?,reversable defect,TRUE,1
+data_va,49,M,typical,130,0,FALSE,abnormality,145,No,3,flat,?,?,TRUE,1
+data_va,51,M,non-anginal pain,?,339,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,60,M,asymptomatic,142,216,FALSE,normal,110,Yes,2.5,flat,?,?,TRUE,1
+data_va,64,F,asymptomatic,142,276,FALSE,normal,140,Yes,1,flat,?,reversable defect,TRUE,1
+data_va,58,M,asymptomatic,132,458,TRUE,normal,69,No,1,downsloping,?,?,FALSE,0
+data_va,61,M,asymptomatic,146,241,FALSE,normal,148,Yes,3,downsloping,?,?,TRUE,1
+data_va,67,M,asymptomatic,160,384,TRUE,abnormality,130,Yes,0,flat,?,?,TRUE,1
+data_va,62,M,asymptomatic,135,297,FALSE,normal,130,Yes,1,flat,?,?,TRUE,1
+data_va,65,M,asymptomatic,136,248,FALSE,normal,140,Yes,4,downsloping,?,?,TRUE,1
+data_va,63,M,asymptomatic,130,308,FALSE,normal,138,Yes,2,flat,?,?,TRUE,1
+data_va,69,M,asymptomatic,140,208,FALSE,abnormality,140,Yes,2,?,?,?,TRUE,1
+data_va,51,M,asymptomatic,?,227,TRUE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,62,M,asymptomatic,158,210,TRUE,normal,112,Yes,3,downsloping,?,?,TRUE,1
+data_va,55,M,non-anginal pain,?,245,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,75,M,asymptomatic,136,225,FALSE,normal,112,Yes,3,flat,?,?,TRUE,1
+data_va,40,M,non-anginal pain,106,240,FALSE,normal,80,Yes,0,?,?,reversable defect,FALSE,0
+data_va,67,M,asymptomatic,120,0,TRUE,normal,150,No,1.5,downsloping,?,?,TRUE,1
+data_va,58,M,asymptomatic,110,198,FALSE,normal,110,No,0,?,?,?,TRUE,1
+data_va,60,M,asymptomatic,?,195,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,63,M,asymptomatic,160,267,TRUE,abnormality,88,Yes,2,?,?,?,TRUE,1
+data_va,35,M,non-anginal pain,?,161,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,62,M,typical,112,258,FALSE,abnormality,150,Yes,?,?,?,?,TRUE,1
+data_va,43,M,asymptomatic,122,0,FALSE,normal,120,No,0.5,upsloping,?,?,TRUE,1
+data_va,63,M,non-anginal pain,130,0,TRUE,abnormality,160,No,3,flat,?,?,FALSE,0
+data_va,68,M,non-anginal pain,150,195,TRUE,normal,132,No,0,?,?,fixed defect,TRUE,1
+data_va,65,M,asymptomatic,150,235,FALSE,normal,120,Yes,1.5,flat,?,?,TRUE,1
+data_va,48,M,non-anginal pain,102,0,?,abnormality,110,Yes,1,downsloping,?,?,TRUE,1
+data_va,63,M,asymptomatic,96,305,FALSE,abnormality,121,Yes,1,upsloping,?,?,TRUE,1
+data_va,64,M,asymptomatic,130,223,FALSE,abnormality,128,No,0.5,flat,?,?,FALSE,0
+data_va,61,M,asymptomatic,120,282,FALSE,abnormality,135,Yes,4,downsloping,?,fixed defect,TRUE,1
+data_va,50,M,asymptomatic,144,349,FALSE,left ventricular hypertrophy ,120,Yes,1,upsloping,?,reversable defect,TRUE,1
+data_va,59,M,asymptomatic,124,?,FALSE,normal,117,Yes,1,flat,?,?,TRUE,1
+data_va,55,M,asymptomatic,150,160,FALSE,abnormality,150,No,0,?,?,?,FALSE,0
+data_va,45,M,non-anginal pain,?,236,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,65,M,asymptomatic,?,312,FALSE,left ventricular hypertrophy ,?,?,?,?,?,?,TRUE,1
+data_va,61,M,atypical,?,283,FALSE,normal,?,?,?,?,?,?,FALSE,0
+data_va,49,M,non-anginal pain,?,142,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,72,M,asymptomatic,?,211,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,50,M,asymptomatic,?,218,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,64,M,asymptomatic,?,306,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,55,M,asymptomatic,116,186,TRUE,abnormality,102,No,0,?,?,?,TRUE,1
+data_va,63,M,asymptomatic,110,252,FALSE,abnormality,140,Yes,2,flat,?,?,TRUE,1
+data_va,59,M,asymptomatic,125,222,FALSE,normal,135,Yes,2.5,downsloping,?,?,TRUE,1
+data_va,56,M,asymptomatic,?,0,FALSE,left ventricular hypertrophy ,?,?,?,?,?,?,TRUE,1
+data_va,62,M,non-anginal pain,?,0,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,74,M,asymptomatic,150,258,TRUE,abnormality,130,Yes,4,downsloping,?,?,TRUE,1
+data_va,54,M,asymptomatic,130,202,TRUE,normal,112,Yes,2,flat,?,?,TRUE,1
+data_va,57,M,asymptomatic,110,197,FALSE,left ventricular hypertrophy ,100,No,0,?,?,?,FALSE,0
+data_va,62,M,non-anginal pain,?,204,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,76,M,non-anginal pain,104,?,FALSE,left ventricular hypertrophy ,120,No,3.5,downsloping,?,?,TRUE,1
+data_va,54,F,asymptomatic,138,274,FALSE,normal,105,Yes,1.5,flat,?,?,TRUE,1
+data_va,70,M,asymptomatic,170,192,FALSE,abnormality,129,Yes,3,downsloping,?,?,TRUE,1
+data_va,61,F,atypical,140,298,TRUE,normal,120,Yes,0,?,?,reversable defect,FALSE,0
+data_va,48,M,asymptomatic,?,272,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,48,M,non-anginal pain,132,220,TRUE,abnormality,162,No,0,?,?,fixed defect,TRUE,1
+data_va,61,M,typical,142,200,TRUE,abnormality,100,No,1.5,downsloping,?,?,TRUE,1
+data_va,66,M,asymptomatic,112,261,FALSE,normal,140,No,1.5,upsloping,?,?,TRUE,1
+data_va,68,M,typical,?,181,TRUE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,55,M,asymptomatic,172,260,FALSE,normal,73,No,2,?,?,?,TRUE,1
+data_va,62,M,non-anginal pain,120,220,FALSE,left ventricular hypertrophy ,86,No,0,?,?,?,FALSE,0
+data_va,71,M,non-anginal pain,?,221,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,74,M,typical,?,216,TRUE,normal,?,?,?,?,?,?,TRUE,1
+data_va,53,M,non-anginal pain,155,175,TRUE,abnormality,160,No,?,?,?,fixed defect,FALSE,0
+data_va,58,M,non-anginal pain,150,219,FALSE,abnormality,118,Yes,0,?,?,?,TRUE,1
+data_va,75,M,asymptomatic,160,310,TRUE,normal,112,Yes,2,downsloping,?,reversable defect,FALSE,0
+data_va,56,M,non-anginal pain,?,208,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,58,M,non-anginal pain,?,232,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,64,M,asymptomatic,134,273,FALSE,normal,102,Yes,4,downsloping,?,?,TRUE,1
+data_va,54,M,non-anginal pain,?,203,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,54,M,atypical,?,182,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,59,M,asymptomatic,140,274,FALSE,normal,154,Yes,2,flat,?,?,FALSE,0
+data_va,55,M,asymptomatic,?,204,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,57,M,asymptomatic,144,270,TRUE,abnormality,160,Yes,2,flat,?,?,TRUE,1
+data_va,61,M,asymptomatic,?,292,FALSE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,41,M,asymptomatic,150,171,FALSE,normal,128,Yes,1.5,flat,?,?,FALSE,0
+data_va,71,M,asymptomatic,130,221,FALSE,abnormality,115,Yes,0,?,?,?,TRUE,1
+data_va,38,M,asymptomatic,110,289,FALSE,normal,105,Yes,1.5,downsloping,?,?,TRUE,1
+data_va,55,M,asymptomatic,158,217,FALSE,normal,110,Yes,2.5,flat,?,?,TRUE,1
+data_va,56,M,asymptomatic,128,223,FALSE,abnormality,119,Yes,2,downsloping,?,?,TRUE,1
+data_va,69,M,asymptomatic,?,?,TRUE,normal,?,?,?,?,?,?,TRUE,1
+data_va,64,M,asymptomatic,150,193,FALSE,abnormality,135,Yes,0.5,flat,?,?,TRUE,1
+data_va,72,M,asymptomatic,160,?,TRUE,left ventricular hypertrophy ,130,No,1.5,?,?,?,TRUE,1
+data_va,69,M,asymptomatic,?,210,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,56,M,asymptomatic,?,282,TRUE,normal,?,?,?,?,?,?,TRUE,1
+data_va,62,M,asymptomatic,?,170,FALSE,abnormality,120,Yes,3,?,?,?,TRUE,1
+data_va,67,M,asymptomatic,?,369,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,57,M,asymptomatic,156,173,FALSE,left ventricular hypertrophy ,119,Yes,3,downsloping,?,?,TRUE,1
+data_va,69,M,asymptomatic,?,289,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,51,M,asymptomatic,?,?,TRUE,left ventricular hypertrophy ,?,?,?,?,?,reversable defect,TRUE,1
+data_va,48,M,asymptomatic,140,?,FALSE,normal,159,Yes,1.5,upsloping,?,?,TRUE,1
+data_va,69,M,asymptomatic,122,216,TRUE,left ventricular hypertrophy ,84,Yes,0,?,?,reversable defect,TRUE,1
+data_va,69,M,non-anginal pain,?,271,FALSE,left ventricular hypertrophy ,?,?,?,?,?,?,FALSE,0
+data_va,64,M,asymptomatic,?,244,TRUE,abnormality,?,?,?,?,?,?,TRUE,1
+data_va,57,M,atypical,180,285,TRUE,abnormality,120,No,0.8,?,?,?,TRUE,1
+data_va,53,M,asymptomatic,124,243,FALSE,normal,122,Yes,2,flat,?,reversable defect,TRUE,1
+data_va,37,M,non-anginal pain,118,240,FALSE,left ventricular hypertrophy ,165,No,1,flat,?,normal,FALSE,0
+data_va,67,M,asymptomatic,140,219,FALSE,abnormality,122,Yes,2,flat,?,reversable defect,TRUE,1
+data_va,74,M,non-anginal pain,140,237,TRUE,normal,94,No,0,?,?,?,TRUE,1
+data_va,63,M,atypical,?,165,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,58,M,asymptomatic,100,213,FALSE,abnormality,110,No,0,?,?,?,FALSE,0
+data_va,61,M,asymptomatic,190,287,TRUE,left ventricular hypertrophy ,150,Yes,2,downsloping,?,?,TRUE,1
+data_va,64,M,asymptomatic,130,258,TRUE,left ventricular hypertrophy ,130,No,0,?,?,fixed defect,TRUE,1
+data_va,58,M,asymptomatic,160,256,TRUE,left ventricular hypertrophy ,113,Yes,1,upsloping,?,?,TRUE,1
+data_va,60,M,asymptomatic,130,186,TRUE,left ventricular hypertrophy ,140,Yes,0.5,flat,?,?,TRUE,1
+data_va,57,M,asymptomatic,122,264,FALSE,left ventricular hypertrophy ,100,No,0,?,?,?,TRUE,1
+data_va,55,M,non-anginal pain,?,?,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,55,M,asymptomatic,120,226,FALSE,left ventricular hypertrophy ,127,Yes,1.7,downsloping,?,reversable defect,TRUE,1
+data_va,56,M,asymptomatic,130,203,TRUE,normal,98,No,1.5,flat,?,reversable defect,TRUE,1
+data_va,57,M,asymptomatic,130,207,FALSE,abnormality,96,Yes,1,flat,?,?,FALSE,0
+data_va,61,M,non-anginal pain,?,284,FALSE,normal,?,?,?,?,?,?,TRUE,1
+data_va,61,M,non-anginal pain,120,337,FALSE,normal,98,Yes,0,?,?,?,TRUE,1
+data_va,58,M,non-anginal pain,150,219,FALSE,abnormality,118,Yes,0,?,?,?,TRUE,1
+data_va,74,M,asymptomatic,155,310,FALSE,normal,112,Yes,1.5,downsloping,?,?,TRUE,1
+data_va,68,M,non-anginal pain,134,254,TRUE,normal,151,Yes,0,?,?,normal,FALSE,0
+data_va,51,F,asymptomatic,114,258,TRUE,left ventricular hypertrophy ,96,No,1,upsloping,?,?,FALSE,0
+data_va,62,M,asymptomatic,160,254,TRUE,abnormality,108,Yes,3,flat,?,?,TRUE,1
+data_va,53,M,asymptomatic,144,300,TRUE,abnormality,128,Yes,1.5,flat,?,?,TRUE,1
+data_va,62,M,asymptomatic,158,170,FALSE,abnormality,138,Yes,0,?,?,?,TRUE,1
+data_va,46,M,asymptomatic,134,310,FALSE,normal,126,No,0,?,?,normal,TRUE,1
+data_va,54,F,asymptomatic,127,333,TRUE,abnormality,154,No,0,?,?,?,TRUE,1
+data_va,62,M,typical,?,139,FALSE,abnormality,?,?,?,?,?,?,FALSE,0
+data_va,55,M,asymptomatic,122,223,TRUE,abnormality,100,No,0,?,?,fixed defect,TRUE,1
+data_va,58,M,asymptomatic,?,385,TRUE,left ventricular hypertrophy ,?,?,?,?,?,?,FALSE,0
+data_va,62,M,atypical,120,254,FALSE,left ventricular hypertrophy ,93,Yes,0,?,?,?,TRUE,1
